@@ -13852,5 +13852,239 @@
         "module": "Home",
         "details": "Viewed home page",
         "metadata": {}
+    },
+    {
+        "id": "20251223125453359854",
+        "timestamp": "2025-12-23 12:54:53",
+        "user": "admin",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'admin' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125453449607",
+        "timestamp": "2025-12-23 12:54:53",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125453506955",
+        "timestamp": "2025-12-23 12:54:53",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125456850639",
+        "timestamp": "2025-12-23 12:54:56",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125456905402",
+        "timestamp": "2025-12-23 12:54:56",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125523764933",
+        "timestamp": "2025-12-23 12:55:23",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125523832293",
+        "timestamp": "2025-12-23 12:55:23",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125523984707",
+        "timestamp": "2025-12-23 12:55:23",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125524081827",
+        "timestamp": "2025-12-23 12:55:24",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125547303148",
+        "timestamp": "2025-12-23 12:55:47",
+        "user": "superuser",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'superuser' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125547463879",
+        "timestamp": "2025-12-23 12:55:47",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125547534952",
+        "timestamp": "2025-12-23 12:55:47",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125550038643",
+        "timestamp": "2025-12-23 12:55:50",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125550097518",
+        "timestamp": "2025-12-23 12:55:50",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125553986229",
+        "timestamp": "2025-12-23 12:55:53",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125554046543",
+        "timestamp": "2025-12-23 12:55:54",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125554151350",
+        "timestamp": "2025-12-23 12:55:54",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125554204647",
+        "timestamp": "2025-12-23 12:55:54",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125556573854",
+        "timestamp": "2025-12-23 12:55:56",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125556650137",
+        "timestamp": "2025-12-23 12:55:56",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125556795119",
+        "timestamp": "2025-12-23 12:55:56",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125556848855",
+        "timestamp": "2025-12-23 12:55:56",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125630363990",
+        "timestamp": "2025-12-23 12:56:30",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125630413144",
+        "timestamp": "2025-12-23 12:56:30",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125635144096",
+        "timestamp": "2025-12-23 12:56:35",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20251223125635280121",
+        "timestamp": "2025-12-23 12:56:35",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
     }
 ]
