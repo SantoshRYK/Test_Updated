@@ -1,0 +1,59 @@
+{
+    "superuser": {
+        "password": "4e4c56e4a15f89f05c2f4c72613da2a18c9665d4f0d6acce16415eb06f9be776",
+        "email": "superuser@testportal.com",
+        "role": "superuser",
+        "status": "active",
+        "created_at": "2025-12-19 18:50:47"
+    },
+    "NHYK": {
+        "password": "9fe92f5b006646ed0027159a25e39882ee390e1168c3a680d357864754c43983",
+        "email": "NHYK@nn.com",
+        "role": "user",
+        "status": "active",
+        "created_at": "2025-12-19 19:13:11",
+        "approved_by": "superuser",
+        "password_reset_by": "superuser",
+        "password_reset_at": "2025-12-19 19:24:13"
+    },
+    "GEGE": {
+        "password": "cf80cd8aed482d5d1527d7dc72fceff84e6326592848447d2dc0b0e87dfc9a90",
+        "email": "GEGE@nn.com",
+        "role": "manager",
+        "status": "active",
+        "created_at": "2025-12-19 19:25:25",
+        "approved_by": "superuser"
+    },
+    "admin": {
+        "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9",
+        "email": "admin@nn.com",
+        "role": "admin",
+        "status": "active",
+        "created_at": "2025-12-19 22:59:24",
+        "approved_by": "superuser"
+    },
+    "test1": {
+        "password": "cf80cd8aed482d5d1527d7dc72fceff84e6326592848447d2dc0b0e87dfc9a90",
+        "email": "test1@nn.com",
+        "role": "user",
+        "status": "active",
+        "created_at": "2025-12-22 16:15:03",
+        "approved_by": "superuser"
+    },
+    "test2": {
+        "password": "cf80cd8aed482d5d1527d7dc72fceff84e6326592848447d2dc0b0e87dfc9a90",
+        "email": "test2@nn.com",
+        "role": "user",
+        "status": "active",
+        "created_at": "2025-12-22 16:20:17",
+        "approved_by": "superuser"
+    },
+    "test3": {
+        "password": "cf80cd8aed482d5d1527d7dc72fceff84e6326592848447d2dc0b0e87dfc9a90",
+        "email": "test3@nn.com",
+        "role": "user",
+        "status": "active",
+        "created_at": "2025-12-22 16:30:11",
+        "approved_by": "superuser"
+    }
+}
