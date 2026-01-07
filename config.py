@@ -101,7 +101,7 @@ TRIAL_CATEGORIES = [
 ]
 
 # Role options for allocations (renamed for clarity)
-ROLES_ALLOCATION = ["TE1", "TE2", "TE3", "Lead", "Scripting", "UATR1", "UATR2"]
+ROLES_ALLOCATION = ["TE1", "TE2", "Support Role"]
 
 # Activity types (optional - for future use)
 ACTIVITY_TYPES = [

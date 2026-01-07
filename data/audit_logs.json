@@ -14086,5 +14086,599 @@
         "module": "Audit",
         "details": "Viewed audit page",
         "metadata": {}
+    },
+    {
+        "id": "20260107084613754631",
+        "timestamp": "2026-01-07 08:46:13",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084616595806",
+        "timestamp": "2026-01-07 08:46:16",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084622099396",
+        "timestamp": "2026-01-07 08:46:22",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084625927337",
+        "timestamp": "2026-01-07 08:46:25",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084629760829",
+        "timestamp": "2026-01-07 08:46:29",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084635604427",
+        "timestamp": "2026-01-07 08:46:35",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084640521928",
+        "timestamp": "2026-01-07 08:46:40",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084731347915",
+        "timestamp": "2026-01-07 08:47:31",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'superuser'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084736750252",
+        "timestamp": "2026-01-07 08:47:36",
+        "user": "superuser",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'superuser' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084736974948",
+        "timestamp": "2026-01-07 08:47:36",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084737067359",
+        "timestamp": "2026-01-07 08:47:37",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084738687453",
+        "timestamp": "2026-01-07 08:47:38",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084738818174",
+        "timestamp": "2026-01-07 08:47:38",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084742145412",
+        "timestamp": "2026-01-07 08:47:42",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084742231030",
+        "timestamp": "2026-01-07 08:47:42",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084759304774",
+        "timestamp": "2026-01-07 08:47:59",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084759391614",
+        "timestamp": "2026-01-07 08:47:59",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084759540928",
+        "timestamp": "2026-01-07 08:47:59",
+        "user": "superuser",
+        "action": "APPROVE",
+        "module": "Password Reset",
+        "details": "Approved password reset for NHYK",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084759752913",
+        "timestamp": "2026-01-07 08:47:59",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084759833443",
+        "timestamp": "2026-01-07 08:47:59",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084811965487",
+        "timestamp": "2026-01-07 08:48:11",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084812172373",
+        "timestamp": "2026-01-07 08:48:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084812302190",
+        "timestamp": "2026-01-07 08:48:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084815451545",
+        "timestamp": "2026-01-07 08:48:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084815616342",
+        "timestamp": "2026-01-07 08:48:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084902254615",
+        "timestamp": "2026-01-07 08:49:02",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084902480744",
+        "timestamp": "2026-01-07 08:49:02",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084902564244",
+        "timestamp": "2026-01-07 08:49:02",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084903909053",
+        "timestamp": "2026-01-07 08:49:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084903999895",
+        "timestamp": "2026-01-07 08:49:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084948786671",
+        "timestamp": "2026-01-07 08:49:48",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084948891920",
+        "timestamp": "2026-01-07 08:49:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084948949723",
+        "timestamp": "2026-01-07 08:49:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084950518519",
+        "timestamp": "2026-01-07 08:49:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107084950567264",
+        "timestamp": "2026-01-07 08:49:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085013729286",
+        "timestamp": "2026-01-07 08:50:13",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085016543601",
+        "timestamp": "2026-01-07 08:50:16",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085115834681",
+        "timestamp": "2026-01-07 08:51:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085115908497",
+        "timestamp": "2026-01-07 08:51:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085126359112",
+        "timestamp": "2026-01-07 08:51:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085126425929",
+        "timestamp": "2026-01-07 08:51:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085209390114",
+        "timestamp": "2026-01-07 08:52:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085209478780",
+        "timestamp": "2026-01-07 08:52:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085209707525",
+        "timestamp": "2026-01-07 08:52:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085209762717",
+        "timestamp": "2026-01-07 08:52:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085338275493",
+        "timestamp": "2026-01-07 08:53:38",
+        "user": "admin",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'admin' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085338408284",
+        "timestamp": "2026-01-07 08:53:38",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085338464695",
+        "timestamp": "2026-01-07 08:53:38",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085340524741",
+        "timestamp": "2026-01-07 08:53:40",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085340585386",
+        "timestamp": "2026-01-07 08:53:40",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085353698054",
+        "timestamp": "2026-01-07 08:53:53",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085353811962",
+        "timestamp": "2026-01-07 08:53:53",
+        "user": "admin",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085549672880",
+        "timestamp": "2026-01-07 08:55:49",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085549787638",
+        "timestamp": "2026-01-07 08:55:49",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085549846713",
+        "timestamp": "2026-01-07 08:55:49",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085605197705",
+        "timestamp": "2026-01-07 08:56:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085605247906",
+        "timestamp": "2026-01-07 08:56:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085605374253",
+        "timestamp": "2026-01-07 08:56:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085605421227",
+        "timestamp": "2026-01-07 08:56:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085826786270",
+        "timestamp": "2026-01-07 08:58:26",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085827040438",
+        "timestamp": "2026-01-07 08:58:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085827125035",
+        "timestamp": "2026-01-07 08:58:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085830731712",
+        "timestamp": "2026-01-07 08:58:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107085830853842",
+        "timestamp": "2026-01-07 08:58:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107090035333134",
+        "timestamp": "2026-01-07 09:00:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107090035431471",
+        "timestamp": "2026-01-07 09:00:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
     }
 ]
