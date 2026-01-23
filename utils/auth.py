@@ -42,6 +42,11 @@ def is_regular_user() -> bool:
     """Check if current user is regular user"""
     return get_current_role() == 'user'
 
+# ✅ NEW FUNCTION: Check if user is audit reviewer
+def is_audit_reviewer() -> bool:
+    """Check if current user has audit reviewer access"""
+    return st.session_state.get('is_audit_reviewer', False)
+
 def can_manage_users() -> bool:
     """Check if user can manage other users"""
     return get_current_role() in ['superuser', 'admin']
@@ -50,11 +55,13 @@ def can_view_all_data() -> bool:
     """Check if user can view all data"""
     return get_current_role() in ['superuser', 'admin', 'manager']
 
-def login_user(username: str, role: str):
-    """Log in user"""
+# ✅ MODIFIED: Added is_audit_reviewer parameter
+def login_user(username: str, role: str, is_audit_reviewer: bool = False):
+    """Log in user and set session state"""
     st.session_state.logged_in = True
     st.session_state.username = username
     st.session_state.role = role
+    st.session_state.is_audit_reviewer = is_audit_reviewer  # ✅ NEW
     st.session_state.current_page = "home"
 
 def logout_user():
@@ -62,6 +69,7 @@ def logout_user():
     st.session_state.logged_in = False
     st.session_state.username = ""
     st.session_state.role = ""
+    st.session_state.is_audit_reviewer = False  # ✅ NEW
     st.session_state.current_page = "home"
 
 def initialize_session_state():
@@ -72,6 +80,8 @@ def initialize_session_state():
         st.session_state.username = ""
     if 'role' not in st.session_state:
         st.session_state.role = ""
+    if 'is_audit_reviewer' not in st.session_state:  # ✅ NEW
+        st.session_state.is_audit_reviewer = False
     if 'current_page' not in st.session_state:
         st.session_state.current_page = "home"
 
@@ -206,3 +216,18 @@ def require_permission(required_permission: str):
             return func(*args, **kwargs)
         return wrapper
     return decorator
+
+# ✅ NEW DECORATOR: Require audit reviewer access
+def require_audit_reviewer(func):
+    """Decorator to require audit reviewer access for a function"""
+    def wrapper(*args, **kwargs):
+        if not is_logged_in():
+            st.warning("⚠️ Please login to access this feature")
+            st.stop()
+        
+        if not is_audit_reviewer() and not is_superuser():
+            st.error("❌ Access Denied: This feature requires Audit Reviewer access")
+            st.stop()
+        
+        return func(*args, **kwargs)
+    return wrapper

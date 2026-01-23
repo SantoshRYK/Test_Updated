@@ -13,6 +13,7 @@ class UserRole(Enum):
     MANAGER = "manager"
     ADMIN = "admin"
     USER = "user"
+    AUDIT_REVIEWER = "audit_reviewer"  # ✅ NEW: Added audit reviewer role
 
 class UserStatus(Enum):
     """User status enumeration"""
@@ -38,6 +39,13 @@ class User:
     password_reset_by: Optional[str] = None
     last_login: Optional[str] = None
     
+    # ✅ NEW: Audit Reviewer fields
+    is_audit_reviewer: bool = False
+    audit_reviewer_requested: bool = False
+    audit_reviewer_justification: Optional[str] = None
+    audit_reviewer_approved_by: Optional[str] = None
+    audit_reviewer_approved_at: Optional[str] = None
+    
     def to_dict(self):
         """Convert user to dictionary"""
         return {
@@ -53,7 +61,13 @@ class User:
             "updated_by": self.updated_by,
             "password_reset_at": self.password_reset_at,
             "password_reset_by": self.password_reset_by,
-            "last_login": self.last_login
+            "last_login": self.last_login,
+            # ✅ NEW: Include audit reviewer fields in dictionary
+            "is_audit_reviewer": self.is_audit_reviewer,
+            "audit_reviewer_requested": self.audit_reviewer_requested,
+            "audit_reviewer_justification": self.audit_reviewer_justification,
+            "audit_reviewer_approved_by": self.audit_reviewer_approved_by,
+            "audit_reviewer_approved_at": self.audit_reviewer_approved_at
         }
     
     @classmethod
@@ -72,7 +86,13 @@ class User:
             updated_by=data.get("updated_by"),
             password_reset_at=data.get("password_reset_at"),
             password_reset_by=data.get("password_reset_by"),
-            last_login=data.get("last_login")
+            last_login=data.get("last_login"),
+            # ✅ NEW: Load audit reviewer fields from dictionary
+            is_audit_reviewer=data.get("is_audit_reviewer", False),
+            audit_reviewer_requested=data.get("audit_reviewer_requested", False),
+            audit_reviewer_justification=data.get("audit_reviewer_justification"),
+            audit_reviewer_approved_by=data.get("audit_reviewer_approved_by"),
+            audit_reviewer_approved_at=data.get("audit_reviewer_approved_at")
         )
     
     def is_active(self):
@@ -90,6 +110,11 @@ class User:
     def can_approve_requests(self):
         """Check if user can approve requests"""
         return self.role == "superuser"
+    
+    # ✅ NEW: Method to check if user is audit reviewer
+    def is_audit_reviewer_user(self):
+        """Check if user has audit reviewer access"""
+        return self.is_audit_reviewer
 
 @dataclass
 class PendingUser:
@@ -102,6 +127,10 @@ class PendingUser:
     requested_at: str = field(default_factory=lambda: datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
     reason: Optional[str] = None
     
+    # ✅ NEW: Audit Reviewer request fields for pending users
+    audit_reviewer_requested: bool = False
+    audit_reviewer_justification: Optional[str] = None
+    
     def to_dict(self):
         """Convert to dictionary"""
         return {
@@ -111,7 +140,10 @@ class PendingUser:
             "requested_role": self.requested_role,
             "status": self.status,
             "requested_at": self.requested_at,
-            "reason": self.reason
+            "reason": self.reason,
+            # ✅ NEW: Include audit reviewer request in dictionary
+            "audit_reviewer_requested": self.audit_reviewer_requested,
+            "audit_reviewer_justification": self.audit_reviewer_justification
         }
     
     @classmethod
@@ -124,7 +156,10 @@ class PendingUser:
             requested_role=data.get("requested_role", "user"),
             status=data.get("status", "pending"),
             requested_at=data.get("requested_at", datetime.now().strftime("%Y-%m-%d %H:%M:%S")),
-            reason=data.get("reason")
+            reason=data.get("reason"),
+            # ✅ NEW: Load audit reviewer request from dictionary
+            audit_reviewer_requested=data.get("audit_reviewer_requested", False),
+            audit_reviewer_justification=data.get("audit_reviewer_justification")
         )
 
 @dataclass

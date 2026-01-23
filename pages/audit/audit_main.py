@@ -2,12 +2,13 @@
 """
 Main Audit Trail page - Modern Professional UI
 ROUTER for all audit features with enhanced visualizations
+Includes Audit Reviewer dual-view functionality for Trail Documents
 """
 import streamlit as st
 from pages.audit.audit_viewer import render_audit_viewer_tab
 from services.audit_service import log_page_view
 from utils.auth import get_current_role
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Modern CSS Styling
 def inject_audit_main_css():
@@ -137,6 +138,11 @@ def inject_audit_main_css():
     
     .superuser-badge {
         background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+    }
+    
+    .reviewer-badge {
+        background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        box-shadow: 0 4px 12px rgba(240, 147, 251, 0.3);
     }
     
     /* Info Box */
@@ -282,6 +288,7 @@ def render_audit_page():
     log_page_view("audit")
     
     current_role = get_current_role()
+    is_audit_reviewer = st.session_state.get('is_audit_reviewer', False)
     
     # Hero Section
     st.markdown("""
@@ -296,11 +303,570 @@ def render_audit_page():
         st.session_state.current_page = "home"
         st.rerun()
     
-    # Show different views based on role
+    # Show different views based on role AND audit reviewer status
     if current_role == "superuser":
         render_superuser_audit_menu()
+    elif is_audit_reviewer:
+        render_audit_reviewer_view()
     else:
         render_user_trail_documents()
+
+def render_audit_reviewer_view():
+    """Render dual-view interface for audit reviewers - Trail Documents Only"""
+    
+    # Reviewer Badge
+    st.markdown("""
+    <div style="text-align: center;">
+        <span class="role-badge reviewer-badge">
+            <span>🔍</span>
+            <span>AUDIT REVIEWER ACCESS</span>
+        </span>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.success("""
+    🔍 **Audit Reviewer Mode Active**
+    
+    You have special access to view all Trail Audit Documents across the system for compliance and review purposes.
+    """)
+    
+    st.markdown("---")
+    
+    # Dual Tab Interface
+    tab1, tab2 = st.tabs([
+        "📄 My Documents",
+        "🔍 All Trail Documents (Reviewer Mode)"
+    ])
+    
+    # TAB 1: My Documents (Normal user view)
+    with tab1:
+        st.markdown("""
+        <div style="text-align: center; margin: 2rem 0;">
+            <h2 style="font-weight: 700;">📄 My Trail Documents</h2>
+            <p style="color: #718096;">Documents you created and manage</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Check if trail_documents module exists
+        try:
+            from pages.audit.trail_documents import render_trail_documents_page
+            render_trail_documents_page()
+        except ImportError:
+            st.warning("⚠️ Trail Documents module not found.")
+            st.info("""
+            **Expected location:** `pages/audit/trail_documents.py`
+            
+            Trail documents are records that include:
+            - Document approvals
+            - Go-live dates
+            - Test completion records
+            - Compliance documentation
+            """)
+    
+    # TAB 2: All Trail Documents (Reviewer view - read-only)
+    with tab2:
+        st.markdown("""
+        <div style="text-align: center; margin: 2rem 0;">
+            <h2 style="font-weight: 700;">🔍 All Trail Documents</h2>
+            <p style="color: #718096;">Complete trail documents across all users (Read-Only)</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        st.info("👁️ **Reviewer Mode:** You can view all documents but cannot edit them")
+        
+        render_all_trail_documents_for_reviewer()
+
+def render_all_trail_documents_for_reviewer():
+    """Display all Trail Audit Documents for audit reviewers with proper filters"""
+    from utils.database import load_users
+    import pandas as pd
+    import os
+    import json
+    
+    # Load Trail Documents
+    try:
+        trail_docs_file = "data/trail_documents.json"
+        
+        if not os.path.exists(trail_docs_file):
+            st.warning("⚠️ Trail Documents file not found")
+            st.info("Trail documents will appear here once users start uploading them")
+            
+            # Show instructions
+            st.markdown("""
+            ### 📋 What are Trail Audit Documents?
+            
+            Trail Audit Documents are records created by Test Engineers that include:
+            - **Trail ID** - Unique trail identifier
+            - **Category** - Build or Change Request
+            - **CR Number** - Change Request number (if applicable)
+            - **UAT Round** - Testing round information
+            - **TMF/Vault ID** - Document identifier
+            - **Approval dates** - TE1, TE2, or CTDM approvals
+            - **Go-live dates** - Production deployment dates
+            
+            These documents will be accessible here once users create them.
+            
+            **File location:** `data/trail_documents.json`
+            """)
+            return
+        
+        # Load trail documents
+        with open(trail_docs_file, 'r') as f:
+            trail_docs = json.load(f)
+        
+        if not trail_docs or len(trail_docs) == 0:
+            st.info("📭 No trail documents available yet")
+            st.caption("Documents will appear here once users create them")
+            return
+        
+        users = load_users()
+        
+    except json.JSONDecodeError:
+        st.error("❌ Error: Trail documents file is corrupted")
+        st.info("Please check the JSON format in `data/trail_documents.json`")
+        return
+    except Exception as e:
+        st.error(f"❌ Error loading trail documents: {e}")
+        return
+    
+    # FILTERS SECTION
+    st.markdown("#### 🔍 Filter Options")
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        # Trail ID filter (dropdown)
+        all_trails = ["All"] + sorted(list(set(doc.get('trail', 'N/A') for doc in trail_docs if doc.get('trail'))))
+        selected_trail = st.selectbox(
+            "Filter by Trail ID",
+            options=all_trails,
+            key="reviewer_trail_filter"
+        )
+    
+    with col2:
+        # Category filter
+        selected_category = st.selectbox(
+            "Filter by Category",
+            options=["All", "Build", "Change Request"],
+            key="reviewer_category_filter"
+        )
+    
+    with col3:
+        # CR Number filter - Only show if Change Request selected or All
+        if selected_category in ["All", "Change Request"]:
+            all_cr_numbers = ["All"] + sorted(list(set(
+                doc.get('cr_number', 'N/A') 
+                for doc in trail_docs 
+                if doc.get('cr_number') and doc.get('category') == 'Change Request'
+            )))
+            selected_cr_number = st.selectbox(
+                "Filter by CR Number",
+                options=all_cr_numbers,
+                key="reviewer_cr_filter"
+            )
+        else:
+            selected_cr_number = "All"
+            st.selectbox(
+                "Filter by CR Number",
+                options=["All"],
+                disabled=True,
+                key="reviewer_cr_filter_disabled",
+                help="Available only for Change Request category"
+            )
+    
+    with col4:
+        # UAT Round filter
+        all_uat_rounds = ["All"] + sorted(list(set(doc.get('uat_round', 'N/A') for doc in trail_docs if doc.get('uat_round'))))
+        selected_uat_round = st.selectbox(
+            "Filter by UAT Round",
+            options=all_uat_rounds,
+            key="reviewer_uat_filter"
+        )
+    
+    # Additional Quick Search Row
+    st.markdown("##### 🔎 Quick Search")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        search_trail = st.text_input(
+            "Search Trail ID",
+            placeholder="Type to search...",
+            key="reviewer_search_trail"
+        )
+    
+    with col2:
+        search_doc_name = st.text_input(
+            "Search Document Name",
+            placeholder="Type to search...",
+            key="reviewer_search_doc"
+        )
+    
+    with col3:
+        search_tmf = st.text_input(
+            "Search TMF/Vault ID",
+            placeholder="Type to search...",
+            key="reviewer_search_tmf"
+        )
+    
+    # Apply filters
+    filtered_docs = trail_docs.copy()
+    
+    # Filter by Trail ID (dropdown)
+    if selected_trail != "All":
+        filtered_docs = [doc for doc in filtered_docs if doc.get('trail') == selected_trail]
+    
+    # Filter by Category
+    if selected_category != "All":
+        filtered_docs = [doc for doc in filtered_docs if doc.get('category') == selected_category]
+    
+    # Filter by CR Number
+    if selected_cr_number != "All":
+        filtered_docs = [doc for doc in filtered_docs if doc.get('cr_number') == selected_cr_number]
+    
+    # Filter by UAT Round (dropdown)
+    if selected_uat_round != "All":
+        filtered_docs = [doc for doc in filtered_docs if doc.get('uat_round') == selected_uat_round]
+    
+    # Text search filters (case-insensitive, partial match)
+    if search_trail:
+        search_trail_lower = search_trail.lower()
+        filtered_docs = [doc for doc in filtered_docs if search_trail_lower in doc.get('trail', '').lower()]
+    
+    if search_doc_name:
+        search_doc_lower = search_doc_name.lower()
+        filtered_docs = [doc for doc in filtered_docs if search_doc_lower in doc.get('document_name', '').lower()]
+    
+    if search_tmf:
+        search_tmf_lower = search_tmf.lower()
+        filtered_docs = [doc for doc in filtered_docs if search_tmf_lower in doc.get('tmf_vault_id', '').lower()]
+    
+    # Clear filters button
+    col_clear1, col_clear2 = st.columns([1, 5])
+    with col_clear1:
+        if st.button("🔄 Clear All Filters", use_container_width=True, key="reviewer_clear_filters_btn"):
+            for key in list(st.session_state.keys()):
+                if key.startswith('reviewer_'):
+                    del st.session_state[key]
+            st.rerun()
+    
+    st.markdown("---")
+    
+    # Display Statistics
+    col1, col2, col3, col4, col5 = st.columns(5)
+    
+    with col1:
+        st.metric("Total Documents", len(filtered_docs))
+    
+    with col2:
+        unique_users_count = len(set(doc.get('created_by', 'Unknown') for doc in filtered_docs))
+        st.metric("Unique Users", unique_users_count)
+    
+    with col3:
+        build_count = len([doc for doc in filtered_docs if doc.get('category') == 'Build'])
+        st.metric("Build", build_count)
+    
+    with col4:
+        cr_count = len([doc for doc in filtered_docs if doc.get('category') == 'Change Request'])
+        st.metric("Change Request", cr_count)
+    
+    with col5:
+        te_doc_count = len([doc for doc in filtered_docs if doc.get('te_document') == 'Yes'])
+        st.metric("TE Documents", te_doc_count)
+    
+    st.markdown("---")
+    
+    # ✅ TABULAR DISPLAY
+    st.markdown("#### 📋 Trail Document Records")
+    
+    if filtered_docs:
+        # Sort by created date (newest first)
+        filtered_docs_sorted = sorted(
+            filtered_docs, 
+            key=lambda x: x.get('created_at', ''), 
+            reverse=True
+        )
+        
+        # Pagination
+        items_per_page = 20
+        total_pages = max(1, (len(filtered_docs_sorted) + items_per_page - 1) // items_per_page)
+        
+        col_page, col_info = st.columns([1, 3])
+        
+        with col_page:
+            page = st.selectbox(
+                "Page",
+                range(1, total_pages + 1),
+                key="reviewer_pagination"
+            )
+        
+        with col_info:
+            st.info(f"📊 Showing page {page} of {total_pages} ({len(filtered_docs_sorted)} total documents)")
+        
+        start_idx = (page - 1) * items_per_page
+        end_idx = min(start_idx + items_per_page, len(filtered_docs_sorted))
+        page_docs = filtered_docs_sorted[start_idx:end_idx]
+        
+        # Prepare data for table
+        table_data = []
+        for idx, doc in enumerate(page_docs):
+            # Build category display
+            category = doc.get('category', 'N/A')
+            cr_number = doc.get('cr_number', '')
+            category_display = f"{category} - {cr_number}" if cr_number else category
+            
+            # Get approval date based on TE Document
+            if doc.get('te_document') == 'Yes':
+                approval_info = f"TE1: {doc.get('te1_approval_date', 'N/A')} | TE2: {doc.get('te2_approval_date', 'N/A')}"
+            else:
+                approval_info = f"CTDM: {doc.get('ctdm_approval_date', 'N/A')}"
+            
+            table_data.append({
+                '#': start_idx + idx + 1,
+                'Trail ID': doc.get('trail', 'N/A'),
+                'Category': category_display,
+                'TE1': doc.get('te1', 'N/A'),
+                'TE2': doc.get('te2', 'N/A'),
+                'Document Name': doc.get('document_name', 'N/A'),
+                'TE Doc': doc.get('te_document', 'N/A'),
+                'UAT Round': doc.get('uat_round', 'N/A'),
+                'TMF/Vault ID': doc.get('tmf_vault_id', 'N/A'),
+                'Approval Dates': approval_info,
+                'Go-Live': doc.get('go_live_date', 'N/A'),
+                'Created By': doc.get('created_by', 'N/A'),
+                'Created At': doc.get('created_at', 'N/A')[:10] if doc.get('created_at') else 'N/A'
+            })
+        
+        # Create DataFrame
+        df = pd.DataFrame(table_data)
+        
+        # Display as interactive table
+        st.dataframe(
+            df,
+            use_container_width=True,
+            hide_index=True,
+            column_config={
+                "#": st.column_config.NumberColumn(
+                    "#",
+                    width="small",
+                ),
+                "Trail ID": st.column_config.TextColumn(
+                    "Trail ID",
+                    width="medium",
+                ),
+                "Category": st.column_config.TextColumn(
+                    "Category",
+                    width="medium",
+                ),
+                "Document Name": st.column_config.TextColumn(
+                    "Document Name",
+                    width="large",
+                ),
+                "TMF/Vault ID": st.column_config.TextColumn(
+                    "TMF/Vault ID",
+                    width="medium",
+                ),
+                "UAT Round": st.column_config.TextColumn(
+                    "UAT Round",
+                    width="small",
+                ),
+            }
+        )
+        
+        # Option to view detailed information for selected document
+        st.markdown("---")
+        st.markdown("##### 🔍 View Detailed Information")
+        
+        # Select document by TMF/Vault ID
+        tmf_ids_list = [doc.get('tmf_vault_id', 'N/A') for doc in page_docs]
+        selected_tmf = st.selectbox(
+            "Select document by TMF/Vault ID to view details:",
+            options=["- Select a document -"] + tmf_ids_list,
+            key="reviewer_select_detail_view"
+        )
+        
+        if selected_tmf and selected_tmf != "- Select a document -":
+            # Find the selected document
+            selected_doc = next((doc for doc in page_docs if doc.get('tmf_vault_id') == selected_tmf), None)
+            
+            if selected_doc:
+                st.markdown("---")
+                
+                # Display title with emojis
+                trail = selected_doc.get('trail', 'N/A')
+                category = selected_doc.get('category', 'N/A')
+                doc_name = selected_doc.get('document_name', 'N/A')
+                category_emoji = "🏗️" if category == 'Build' else "🔄"
+                te_emoji = "✅" if selected_doc.get('te_document') == 'Yes' else "📄"
+                
+                st.markdown(f"### {category_emoji} {te_emoji} {doc_name}")
+                st.caption(f"Trail: {trail} | Category: {category}")
+                
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    st.markdown("**📄 Document Information**")
+                    st.write(f"**Trail ID:** {trail}")
+                    st.write(f"**Category:** {category_emoji} {category}")
+                    
+                    cr_number = selected_doc.get('cr_number', '')
+                    if cr_number:
+                        st.write(f"**CR Number:** {cr_number}")
+                    
+                    st.write(f"**Document Name:** {doc_name}")
+                    st.write(f"**TE Document:** {te_emoji} {selected_doc.get('te_document', 'N/A')}")
+                    st.write(f"**UAT Round:** {selected_doc.get('uat_round', 'N/A')}")
+                    st.write(f"**TMF/Vault ID:** 🔑 {selected_doc.get('tmf_vault_id', 'N/A')}")
+                
+                with col2:
+                    st.markdown("**📋 Details & Approvals**")
+                    st.write(f"**TE1:** {selected_doc.get('te1', 'N/A')}")
+                    st.write(f"**TE2:** {selected_doc.get('te2', 'N/A')}")
+                    st.write(f"**Go-Live Date:** {selected_doc.get('go_live_date', 'N/A')}")
+                    
+                    st.markdown("**Approval Dates:**")
+                    if selected_doc.get('te_document') == 'Yes':
+                        st.write(f"- TE1 Approval: {selected_doc.get('te1_approval_date', 'N/A')}")
+                        st.write(f"- TE2 Approval: {selected_doc.get('te2_approval_date', 'N/A')}")
+                    else:
+                        st.write(f"- CTDM Approval: {selected_doc.get('ctdm_approval_date', 'N/A')}")
+                
+                st.markdown("---")
+                st.markdown("**📎 Metadata**")
+                col_a, col_b = st.columns(2)
+                
+                with col_a:
+                    st.write(f"**Created By:** {selected_doc.get('created_by', 'N/A')}")
+                    st.write(f"**Created At:** {selected_doc.get('created_at', 'N/A')}")
+                
+                with col_b:
+                    if selected_doc.get('updated_by'):
+                        st.write(f"**Updated By:** {selected_doc.get('updated_by')}")
+                        st.write(f"**Updated At:** {selected_doc.get('updated_at', 'N/A')}")
+                
+                # Show raw JSON data option
+                if st.checkbox("Show raw JSON data", key="reviewer_show_raw_selected"):
+                    st.json(selected_doc)
+                
+                st.caption("👁️ Read-only view (Reviewer Mode) - You cannot edit this document")
+    
+    else:
+        st.info("📭 No documents match the selected filters")
+        st.caption("Try adjusting your filter criteria")
+    
+    # Export Section
+    st.markdown("---")
+    st.markdown("#### 📥 Export Filtered Documents")
+    
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        if st.button("📊 Export to Excel", use_container_width=True, type="primary", key="reviewer_export_excel_btn"):
+            try:
+                import pandas as pd
+                from io import BytesIO
+                
+                # Prepare data for export
+                export_data = []
+                for doc in filtered_docs:
+                    category_display = doc.get('category', 'N/A')
+                    if doc.get('cr_number'):
+                        category_display = f"{category_display} - {doc.get('cr_number')}"
+                    
+                    export_data.append({
+                        "Trail ID": doc.get('trail', 'N/A'),
+                        "Category": category_display,
+                        "CR Number": doc.get('cr_number', '') or 'N/A',
+                        "TE1": doc.get('te1', 'N/A'),
+                        "TE2": doc.get('te2', 'N/A'),
+                        "Document Name": doc.get('document_name', 'N/A'),
+                        "TE Document": doc.get('te_document', 'N/A'),
+                        "UAT Round": doc.get('uat_round', 'N/A'),
+                        "TMF/Vault ID": doc.get('tmf_vault_id', 'N/A'),
+                        "TE1 Approval": doc.get('te1_approval_date', '') or 'N/A',
+                        "TE2 Approval": doc.get('te2_approval_date', '') or 'N/A',
+                        "CTDM Approval": doc.get('ctdm_approval_date', '') or 'N/A',
+                        "Go Live Date": doc.get('go_live_date', 'N/A'),
+                        "Created By": doc.get('created_by', 'N/A'),
+                        "Created At": doc.get('created_at', 'N/A')
+                    })
+                
+                df = pd.DataFrame(export_data)
+                
+                # Create Excel file
+                output = BytesIO()
+                with pd.ExcelWriter(output, engine='openpyxl') as writer:
+                    df.to_excel(writer, index=False, sheet_name='Trail Documents')
+                
+                excel_data = output.getvalue()
+                
+                st.download_button(
+                    label="📥 Download Excel File",
+                    data=excel_data,
+                    file_name=f"trail_documents_reviewer_{datetime.now().strftime('%Y%m%d_%H%M%S')}.xlsx",
+                    mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+                    use_container_width=True,
+                    key="reviewer_download_excel_btn"
+                )
+                st.success("✅ Excel file ready for download!")
+                
+            except Exception as e:
+                st.error(f"❌ Export failed: {e}")
+                st.info("Make sure pandas and openpyxl are installed")
+    
+    with col2:
+        if st.button("💾 Export to JSON", use_container_width=True, key="reviewer_export_json_btn"):
+            import json
+            
+            json_data = json.dumps(filtered_docs, indent=2)
+            
+            st.download_button(
+                label="📥 Download JSON File",
+                data=json_data,
+                file_name=f"trail_documents_reviewer_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+                mime="application/json",
+                use_container_width=True,
+                key="reviewer_download_json_btn"
+            )
+            st.success("✅ JSON file ready for download!")
+    
+    with col3:
+        if st.button("📄 Export to CSV", use_container_width=True, key="reviewer_export_csv_btn"):
+            try:
+                import pandas as pd
+                
+                # Prepare data
+                export_data = []
+                for doc in filtered_docs:
+                    category_display = doc.get('category', 'N/A')
+                    if doc.get('cr_number'):
+                        category_display = f"{category_display} - {doc.get('cr_number')}"
+                    
+                    export_data.append({
+                        "Trail ID": doc.get('trail', 'N/A'),
+                        "Category": category_display,
+                        "Document Name": doc.get('document_name', 'N/A'),
+                        "UAT Round": doc.get('uat_round', 'N/A'),
+                        "TMF/Vault ID": doc.get('tmf_vault_id', 'N/A'),
+                        "Go Live Date": doc.get('go_live_date', 'N/A'),
+                        "Created By": doc.get('created_by', 'N/A'),
+                        "Created At": doc.get('created_at', 'N/A')
+                    })
+                
+                df = pd.DataFrame(export_data)
+                csv_data = df.to_csv(index=False)
+                
+                st.download_button(
+                    label="📥 Download CSV File",
+                    data=csv_data,
+                    file_name=f"trail_documents_reviewer_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                    mime="text/csv",
+                    use_container_width=True,
+                    key="reviewer_download_csv_btn"
+                )
+                st.success("✅ CSV file ready for download!")
+                
+            except Exception as e:
+                st.error(f"❌ Export failed: {e}")
 
 def render_superuser_audit_menu():
     """Render modern menu for superuser with both options"""
@@ -369,12 +935,19 @@ def render_superuser_audit_menu():
     if audit_view == "system_logs":
         render_system_audit_logs()
     elif audit_view == "trail_documents":
-        from pages.audit.trail_documents import render_trail_documents_page
-        render_trail_documents_page()
+        try:
+            from pages.audit.trail_documents import render_trail_documents_page
+            render_trail_documents_page()
+        except ImportError:
+            st.error("Trail Documents module not found")
 
 def render_user_trail_documents():
     """Render trail documents with role-based styling"""
-    from pages.audit.trail_documents import render_trail_documents_page
+    try:
+        from pages.audit.trail_documents import render_trail_documents_page
+    except ImportError:
+        st.error("Trail Documents module not found at pages/audit/trail_documents.py")
+        return
     
     current_role = get_current_role()
     

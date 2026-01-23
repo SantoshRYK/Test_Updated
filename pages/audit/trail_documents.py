@@ -2,6 +2,7 @@
 """
 Trail Audit Documents Management Page
 With Category, Edit, Delete and Enhanced Filters
+✅ WITH DUPLICATE TMF/VAULT ID CHECK
 """
 import streamlit as st
 import pandas as pd
@@ -13,6 +14,54 @@ from utils.database import (
 from utils.auth import get_current_user, get_current_role
 from utils.excel_handler import convert_to_excel
 from services.audit_service import log_audit
+
+# ✅ NEW: Duplicate check functions
+def check_duplicate_tmf_vault_id(tmf_vault_id: str, exclude_id: str = None):
+    """
+    Check if TMF/Vault ID already exists
+    Returns: (is_duplicate, message, duplicate_doc_info)
+    """
+    if not tmf_vault_id or not tmf_vault_id.strip():
+        return False, "", {}
+    
+    documents = load_trail_documents()
+    tmf_vault_id_upper = tmf_vault_id.strip().upper()
+    
+    for doc in documents:
+        # Skip the document being edited
+        if exclude_id and doc.get('id') == exclude_id:
+            continue
+        
+        # Compare TMF/Vault IDs (case-insensitive)
+        if doc.get('tmf_vault_id', '').strip().upper() == tmf_vault_id_upper:
+            duplicate_info = {
+                'id': doc.get('id'),
+                'trail': doc.get('trail', 'Unknown'),
+                'document_name': doc.get('document_name', 'Unknown'),
+                'created_by': doc.get('created_by', 'Unknown'),
+                'created_at': doc.get('created_at', 'N/A'),
+                'category': doc.get('category', 'Unknown'),
+                'uat_round': doc.get('uat_round', 'N/A')
+            }
+            
+            message = f"""
+❌ **Duplicate TMF/Vault ID Found!**
+
+This TMF/Vault ID **`{tmf_vault_id}`** is already in use by:
+
+- **Trail ID:** {duplicate_info['trail']}
+- **Document:** {duplicate_info['document_name']}
+- **Category:** {duplicate_info['category']}
+- **UAT Round:** {duplicate_info['uat_round']}
+- **Created By:** {duplicate_info['created_by']}
+- **Created On:** {duplicate_info['created_at'][:10] if duplicate_info['created_at'] != 'N/A' else 'N/A'}
+
+**Please use a unique TMF/Vault ID or update the existing document.**
+"""
+            
+            return True, message, duplicate_info
+    
+    return False, "", {}
 
 def render_trail_documents_page():
     """Main trail audit documents page"""
@@ -40,7 +89,7 @@ def render_trail_documents_page():
         render_view_trail_documents()
 
 def render_add_trail_document():
-    """Render add trail audit document form"""
+    """Render add trail audit document form with duplicate check"""
     st.subheader("Add New Trail Audit Document")
     
     # Initialize session state
@@ -125,12 +174,32 @@ def render_add_trail_document():
             key="uat_round_input"
         )
         
+        # ✅ TMF/VAULT ID WITH DUPLICATE CHECK
+        st.markdown("##### 🔑 Unique Identifier")
         tmf_vault_id = st.text_input(
             "TMF/Vault ID*",
             placeholder="e.g., TMF-123456",
-            help="Enter TMF or Vault ID",
+            help="⚠️ Must be unique - duplicates will be rejected",
             key="tmf_vault_input"
         )
+        
+        # ✅ REAL-TIME DUPLICATE CHECK (outside form)
+        if tmf_vault_id and tmf_vault_id.strip():
+            is_duplicate, dup_message, dup_info = check_duplicate_tmf_vault_id(tmf_vault_id)
+            if is_duplicate:
+                st.error(dup_message)
+                st.warning("⚠️ **You cannot submit with this TMF/Vault ID. Please use a different one.**")
+                
+                # Show link to existing document
+                with st.expander("📄 View Existing Document Details"):
+                    st.write(f"**Trail ID:** {dup_info['trail']}")
+                    st.write(f"**Document Name:** {dup_info['document_name']}")
+                    st.write(f"**Category:** {dup_info['category']}")
+                    st.write(f"**UAT Round:** {dup_info['uat_round']}")
+                    st.write(f"**Created By:** {dup_info['created_by']}")
+                    st.write(f"**Created On:** {dup_info['created_at'][:10] if dup_info['created_at'] != 'N/A' else 'N/A'}")
+            else:
+                st.success("✅ TMF/Vault ID is available")
         
         st.markdown("#### Approval Dates")
         
@@ -208,6 +277,13 @@ def render_add_trail_document():
             if not ctdm_approval_date:
                 errors.append("CTDM Approval Date is required when TE Document = No")
         
+        # ✅ DUPLICATE CHECK BEFORE SUBMISSION
+        if tmf_vault_id and tmf_vault_id.strip():
+            is_duplicate, dup_message, dup_info = check_duplicate_tmf_vault_id(tmf_vault_id)
+            if is_duplicate:
+                errors.append("TMF/Vault ID already exists - please use a unique ID")
+                st.error(dup_message)
+        
         if errors:
             for error in errors:
                 st.error(f"❌ {error}")
@@ -222,7 +298,7 @@ def render_add_trail_document():
                 "document_name": document_name.strip(),
                 "te_document": te_document,
                 "uat_round": uat_round.strip(),
-                "tmf_vault_id": tmf_vault_id.strip(),
+                "tmf_vault_id": tmf_vault_id.strip(),  # ✅ Store cleaned TMF/Vault ID
                 "te1_approval_date": te1_approval_date.strftime("%Y-%m-%d") if te1_approval_date else None,
                 "te2_approval_date": te2_approval_date.strftime("%Y-%m-%d") if te2_approval_date else None,
                 "ctdm_approval_date": ctdm_approval_date.strftime("%Y-%m-%d") if ctdm_approval_date else None,
@@ -231,7 +307,9 @@ def render_add_trail_document():
             }
             
             if add_trail_document(trail_document):
-                st.success(f"✅ Trail Audit Document saved successfully for Trail: {trail}")
+                st.success(f"✅ Trail Audit Document saved successfully!")
+                st.success(f"📋 Trail: {trail}")
+                st.success(f"🔑 TMF/Vault ID: {tmf_vault_id}")
                 
                 # Log audit
                 log_audit(
@@ -240,11 +318,19 @@ def render_add_trail_document():
                     category="trail_audit_documents",
                     entity_type="trail_audit_document",
                     entity_id=trail_document.get('id', ''),
-                    details={"trail": trail, "category": category, "document_name": document_name}
+                    details={
+                        "trail": trail, 
+                        "category": category, 
+                        "document_name": document_name,
+                        "tmf_vault_id": tmf_vault_id
+                    }
                 )
                 
                 st.balloons()
-                st.rerun()
+                
+                # Option to add another
+                if st.button("➕ Add Another Document"):
+                    st.rerun()
             else:
                 st.error("❌ Failed to save trail audit document")
 
@@ -608,7 +694,8 @@ def render_document_view(doc, current_user, current_role, can_edit):
     
     with col2:
         st.write(f"**UAT Round:** {doc.get('uat_round', 'N/A')}")
-        st.write(f"**TMF/Vault ID:** {doc.get('tmf_vault_id', 'N/A')}")
+        # ✅ Highlight TMF/Vault ID
+        st.write(f"**TMF/Vault ID:** 🔑 {doc.get('tmf_vault_id', 'N/A')}")
         st.write(f"**Go Live Date:** {doc.get('go_live_date', 'N/A')}")
         
         st.markdown("#### Approval Dates")
@@ -657,7 +744,7 @@ def render_document_view(doc, current_user, current_role, can_edit):
                     st.warning("⚠️ Click Delete again to confirm!")
 
 def render_edit_form(doc, current_user):
-    """Render edit form for document"""
+    """Render edit form for document with duplicate check"""
     st.info("✏️ **Edit Mode** - Make your changes below")
     
     doc_id = doc.get('id')
@@ -724,11 +811,24 @@ def render_edit_form(doc, current_user):
             key=f"edit_uat_round_{doc_id}"
         )
         
+        # ✅ TMF/VAULT ID WITH DUPLICATE CHECK (EXCLUDING CURRENT DOC)
+        st.markdown("##### 🔑 Unique Identifier")
         tmf_vault_id = st.text_input(
             "TMF/Vault ID*",
             value=doc.get('tmf_vault_id', ''),
+            help="⚠️ Must be unique - duplicates will be rejected",
             key=f"edit_tmf_{doc_id}"
         )
+        
+        # ✅ REAL-TIME DUPLICATE CHECK (excluding current document)
+        original_tmf = doc.get('tmf_vault_id', '').strip()
+        if tmf_vault_id and tmf_vault_id.strip() and tmf_vault_id.strip().upper() != original_tmf.upper():
+            is_duplicate, dup_message, dup_info = check_duplicate_tmf_vault_id(tmf_vault_id, exclude_id=doc_id)
+            if is_duplicate:
+                st.error(dup_message)
+                st.warning("⚠️ **Cannot save with this TMF/Vault ID. Please use a different one.**")
+            else:
+                st.success("✅ TMF/Vault ID is available")
         
         st.markdown("#### Approval Dates")
         
@@ -808,6 +908,13 @@ def render_edit_form(doc, current_user):
                 if not ctdm_approval_date:
                     errors.append("CTDM Approval Date is required")
             
+            # ✅ DUPLICATE CHECK (excluding current document)
+            if tmf_vault_id and tmf_vault_id.strip():
+                is_duplicate, dup_message, dup_info = check_duplicate_tmf_vault_id(tmf_vault_id, exclude_id=doc_id)
+                if is_duplicate:
+                    errors.append("TMF/Vault ID already exists - please use a unique ID")
+                    st.error(dup_message)
+            
             if errors:
                 for error in errors:
                     st.error(f"❌ {error}")
@@ -822,7 +929,7 @@ def render_edit_form(doc, current_user):
                     "document_name": document_name.strip(),
                     "te_document": te_document,
                     "uat_round": uat_round.strip(),
-                    "tmf_vault_id": tmf_vault_id.strip(),
+                    "tmf_vault_id": tmf_vault_id.strip(),  # ✅ Store cleaned TMF/Vault ID
                     "te1_approval_date": te1_approval_date.strftime("%Y-%m-%d") if te1_approval_date else None,
                     "te2_approval_date": te2_approval_date.strftime("%Y-%m-%d") if te2_approval_date else None,
                     "ctdm_approval_date": ctdm_approval_date.strftime("%Y-%m-%d") if ctdm_approval_date else None,
@@ -839,7 +946,12 @@ def render_edit_form(doc, current_user):
                         category="trail_audit_documents",
                         entity_type="trail_audit_document",
                         entity_id=doc_id,
-                        details={"trail": trail, "category": category, "document_name": document_name}
+                        details={
+                            "trail": trail, 
+                            "category": category, 
+                            "document_name": document_name,
+                            "tmf_vault_id": tmf_vault_id
+                        }
                     )
                     
                     del st.session_state[f"edit_mode_{doc_id}"]

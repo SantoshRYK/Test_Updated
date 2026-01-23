@@ -355,7 +355,7 @@ def main():
         # ========== APPLY GLOBAL STYLES FIRST ==========
         inject_global_styles()
         
-        # Initialize
+        # ✅ Initialize session state (includes is_audit_reviewer now)
         initialize_session_state()
         initialize_all_files()
         

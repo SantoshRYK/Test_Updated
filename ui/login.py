@@ -1,10 +1,12 @@
 # ui/login.py
 """
 Login, Register, and Forgot Password page
-PROFESSIONAL LIGHT BACKGROUND
+PROFESSIONAL LIGHT BACKGROUND WITH HEADER IMAGE
 """
 import streamlit as st
 from datetime import datetime
+import base64
+from pathlib import Path
 from utils.auth import hash_password, verify_password, login_user
 from utils.database import (
     load_users, load_pending_users, save_pending_users,
@@ -15,53 +17,109 @@ from utils.email_handler import send_email
 from services.audit_service import log_login
 from config import VALIDATION
 
+def get_base64_image(image_path):
+    """Convert image to base64 for embedding in CSS"""
+    try:
+        with open(image_path, "rb") as img_file:
+            return base64.b64encode(img_file.read()).decode()
+    except Exception as e:
+        st.warning(f"Could not load background image: {e}")
+        return None
+
 def render_login_page():
-    """Display login page with professional light background"""
+    """Display login page with professional light background and header image"""
     
-    # ========== PROFESSIONAL LIGHT THEME ==========
-    st.markdown("""
+    # Load and encode the background image
+    image_path = "./assets/images/test_engineer_bg.jpg"
+    base64_image = get_base64_image(image_path)
+    
+    # Create background CSS based on whether image loaded
+    if base64_image:
+        header_background = f"""
+            background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), 
+                              url('data:image/jpeg;base64,{base64_image}');
+            background-size: cover;
+            background-position: 50% 30%;
+            background-repeat: no-repeat;
+        """
+    else:
+        # Fallback gradient if image doesn't load
+        header_background = """
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        """
+    
+    # ========== PROFESSIONAL LIGHT THEME WITH HEADER IMAGE ==========
+    st.markdown(f"""
         <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
         
         /* Professional Light Background */
-        .stApp {
+        .stApp {{
             background: linear-gradient(135deg, #f0f4f8 0%, #d9e2ec 100%);
             font-family: 'Inter', sans-serif;
-        }
-        
-        /* Alternative light backgrounds - uncomment to try:
-        
-        /* Soft Gray
-        background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%);
-        
-        /* Warm White
-        background: linear-gradient(135deg, #fafaf9 0%, #f5f5f4 100%);
-        
-        /* Light Blue
-        background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%);
-        
-        /* Mint Fresh
-        background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%);
-        
-        */
+        }}
         
         /* Main container */
-        .block-container {
+        .block-container {{
             padding-top: 5rem;
             padding-bottom: 5rem;
-        }
+        }}
+        
+        /* Header with Background Image */
+        .header-container {{
+            {header_background}
+            border-radius: 20px 20px 0 0;
+            padding: 3.5rem 2.5rem;
+            position: relative;
+            overflow: hidden;
+            margin: -2.5rem -2.5rem 2rem -2.5rem;
+            min-height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }}
+        
+        /* Header content */
+        .header-content {{
+            position: relative;
+            z-index: 2;
+            width: 100%;
+        }}
+        
+        /* Header title styling - FORCE WHITE COLOR */
+        .header-title {{
+            font-family: 'Inter', sans-serif !important;
+            font-weight: 800 !important;
+            text-align: center !important;
+            color: #ffffff !important;
+            font-size: 2.8rem !important;
+            letter-spacing: -0.02em !important;
+            margin-bottom: 1.5rem !important;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5) !important;
+            line-height: 1.2 !important;
+        }}
+        
+        /* Header subtitle styling - FORCE WHITE COLOR */
+        .header-subtitle {{
+            text-align: center !important;
+            color: #ffffff !important;
+            font-size: 1.2rem !important;
+            margin-top: 0 !important;
+            font-weight: 500 !important;
+            text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5) !important;
+        }}
         
         /* Login card - white with subtle shadow */
-        [data-testid="column"] > div {
+        [data-testid="column"] > div {{
             background-color: #ffffff;
             border-radius: 20px;
             padding: 2.5rem;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
             border: 1px solid rgba(0, 0, 0, 0.05);
-        }
+        }}
         
         /* Title styling */
-        h1 {
+        h1 {{
             font-family: 'Inter', sans-serif !important;
             font-weight: 800 !important;
             text-align: center;
@@ -69,64 +127,70 @@ def render_login_page():
             font-size: 2.5rem;
             letter-spacing: -0.03em;
             margin-bottom: 1rem;
-        }
+        }}
         
         /* Subtitle styling */
-        h2, h3 {
+        h2, h3 {{
             font-family: 'Inter', sans-serif !important;
             color: #2d3748;
             font-weight: 600;
-        }
+        }}
         
         /* Tabs styling - Professional blue accent */
-        .stTabs [data-baseweb="tab-list"] {
+        .stTabs [data-baseweb="tab-list"] {{
             gap: 8px;
             background-color: #f8f9fa;
             padding: 0.5rem;
             border-radius: 12px;
             border: 1px solid #e9ecef;
-        }
+        }}
         
-        .stTabs [data-baseweb="tab"] {
+        .stTabs [data-baseweb="tab"] {{
             font-family: 'Inter', sans-serif;
             font-weight: 600;
             border-radius: 8px;
             padding: 0.75rem 1.5rem;
             color: #4a5568;
-        }
+        }}
         
-        .stTabs [aria-selected="true"] {
+        .stTabs [aria-selected="true"] {{
             background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
             color: white !important;
-        }
+        }}
         
         /* Input fields */
         .stTextInput > div > div > input,
-        .stTextArea > div > div > textarea {
+        .stTextArea > div > div > textarea {{
             font-family: 'Inter', sans-serif;
             border-radius: 10px;
             border: 2px solid #e2e8f0;
             transition: all 0.3s;
             background-color: #f8fafc;
-        }
+        }}
         
         .stTextInput > div > div > input:focus,
-        .stTextArea > div > div > textarea:focus {
+        .stTextArea > div > div > textarea:focus {{
             border-color: #3b82f6;
             box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
             background-color: #ffffff;
-        }
+        }}
         
         /* Labels */
         .stTextInput > label,
-        .stTextArea > label {
+        .stTextArea > label,
+        .stCheckbox > label {{
             font-family: 'Inter', sans-serif;
             font-weight: 600;
             color: #2d3748;
-        }
+        }}
+        
+        /* Checkbox styling */
+        .stCheckbox {{
+            font-family: 'Inter', sans-serif;
+        }}
         
         /* Primary button */
-        .stButton > button[kind="primary"] {
+        .stButton > button[kind="primary"] {{
             font-family: 'Inter', sans-serif;
             font-weight: 600;
             border-radius: 10px;
@@ -135,30 +199,30 @@ def render_login_page():
             border: none;
             box-shadow: 0 4px 14px rgba(59, 130, 246, 0.3);
             transition: all 0.3s;
-        }
+        }}
         
-        .stButton > button[kind="primary"]:hover {
+        .stButton > button[kind="primary"]:hover {{
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
-        }
+        }}
         
         /* Info/Warning/Error boxes */
-        .stAlert {
+        .stAlert {{
             font-family: 'Inter', sans-serif;
             border-radius: 12px;
             border: none;
-        }
+        }}
         
         /* Caption text */
-        .caption {
+        .caption {{
             font-family: 'Inter', sans-serif;
             color: #718096;
-        }
+        }}
         
         /* Hide Streamlit elements */
-        #MainMenu {visibility: hidden;}
-        footer {visibility: hidden;}
-        header {visibility: hidden;}
+        #MainMenu {{visibility: hidden;}}
+        footer {{visibility: hidden;}}
+        header {{visibility: hidden;}}
         </style>
     """, unsafe_allow_html=True)
     
@@ -166,24 +230,14 @@ def render_login_page():
     col1, col2, col3 = st.columns([1, 2, 1])
     
     with col2:
-        # Professional title
+        # Professional title with background image
         st.markdown('''
-        <h1 style="
-            font-family: 'Inter', sans-serif;
-            font-weight: 800;
-            text-align: center;
-            color: #1a202c;
-            font-size: 2.5rem;
-            letter-spacing: -0.02em;
-            margin-bottom: 0.5rem;
-        ">🧪 TestingHub Portal</h1>
-        <p style="
-            text-align: center;
-            color: #718096;
-            font-size: 1.1rem;
-            margin-top: 0;
-            font-weight: 500;
-        ">Test Engineer Management System</p>
+        <div class="header-container">
+            <div class="header-content">                    
+                <h1 class="header-title">TestingHub Portal</h1>                    
+                <p class="header-subtitle">Test Engineer Management System</p>
+            </div>
+        </div>
         ''', unsafe_allow_html=True)
         
         st.markdown("---")
@@ -217,7 +271,9 @@ def render_login_tab():
             
             if username in users and users[username]["password"] == hashed_password:
                 if users[username].get("status", "active") == "active":
-                    login_user(username, users[username]["role"])
+                    is_audit_reviewer = users[username].get("is_audit_reviewer", False)
+                    login_user(username, users[username]["role"], is_audit_reviewer)
+                    
                     log_login(username, True)
                     st.success("✅ Login successful!")
                     st.rerun()
@@ -231,7 +287,7 @@ def render_login_tab():
             st.warning("⚠️ Please enter both username and password.")
 
 def render_register_tab():
-    """Render registration tab"""
+    """Render registration tab with Audit Reviewer request option"""
     st.subheader("Create New Account")
     st.info("ℹ️ New registrations will be pending approval by Super User")
     
@@ -239,6 +295,32 @@ def render_register_tab():
     new_email = st.text_input("Email*", key="reg_email")
     new_password = st.text_input("Password*", type="password", key="reg_password")
     confirm_password = st.text_input("Confirm Password*", type="password", key="reg_confirm")
+    
+    st.markdown("---")
+    st.markdown("#### 📋 Additional Access Requests (Optional)")
+    
+    request_audit_reviewer = st.checkbox(
+        "Request Audit Reviewer Access",
+        key="reg_audit_reviewer",
+        help="Audit Reviewers can view all audit documents in the system (read-only access)"
+    )
+    
+    audit_reviewer_justification = None
+    if request_audit_reviewer:
+        st.info("🔍 **Audit Reviewer Access:** Allows you to view all audit trail documents across the system for compliance and review purposes.")
+        audit_reviewer_justification = st.text_area(
+            "Justification for Audit Reviewer Access*",
+            key="reg_audit_justification",
+            placeholder="Please explain why you need access to all audit documents (e.g., compliance officer, internal auditor, quality assurance role)...",
+            help="This will be reviewed by the Super User along with your registration",
+            max_chars=500,
+            height=100
+        )
+        
+        if not audit_reviewer_justification:
+            st.warning("⚠️ Please provide justification for Audit Reviewer access")
+    
+    st.markdown("---")
     
     if st.button("Register", key="register_btn", use_container_width=True, type="primary"):
         if new_username and new_email and new_password and confirm_password:
@@ -257,6 +339,10 @@ def render_register_tab():
                 st.error(f"❌ {msg}")
                 return
             
+            if request_audit_reviewer and not audit_reviewer_justification:
+                st.error("❌ Please provide justification for Audit Reviewer access")
+                return
+            
             users = load_users()
             pending_users = load_pending_users()
             
@@ -271,13 +357,19 @@ def render_register_tab():
                     "email": new_email,
                     "requested_role": "user",
                     "status": "pending",
-                    "requested_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+                    "requested_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+                    "audit_reviewer_requested": request_audit_reviewer,
+                    "audit_reviewer_justification": audit_reviewer_justification if request_audit_reviewer else None
                 }
                 
                 pending_users.append(pending_user)
+                
                 if save_pending_users(pending_users):
                     st.success("✅ Registration submitted! Your account is pending Super User approval.")
                     st.info("📧 You will be notified once your account is approved.")
+                    
+                    if request_audit_reviewer:
+                        st.info("🔍 Your Audit Reviewer access request has also been submitted for approval.")
                     
                     try:
                         from utils.database import load_email_config
@@ -292,14 +384,26 @@ def render_register_tab():
                                     <li><strong>Username:</strong> {new_username}</li>
                                     <li><strong>Email:</strong> {new_email}</li>
                                     <li><strong>Requested At:</strong> {pending_user['requested_at']}</li>
+                                """
+                                
+                                if request_audit_reviewer:
+                                    email_body += f"""
+                                    <li><strong>⚠️ Audit Reviewer Access:</strong> REQUESTED</li>
+                                    <li><strong>Justification:</strong> {audit_reviewer_justification}</li>
+                                """
+                                
+                                email_body += """
                                 </ul>
                                 <p>Please log in to approve or reject this registration.</p>
                                 """
+                                
                                 send_email(admin_email, "New User Registration - Test Engineer Portal", email_body)
-                    except:
+                    except Exception as e:
                         pass
+                else:
+                    st.error("❌ Failed to submit registration. Please try again.")
         else:
-            st.warning("⚠️ Please fill in all fields.")
+            st.warning("⚠️ Please fill in all required fields.")
 
 def render_forgot_password_tab():
     """Render forgot password tab"""
@@ -347,6 +451,7 @@ def render_forgot_password_tab():
                 st.error("❌ Email doesn't match our records!")
             else:
                 reset_requests = load_password_reset_requests()
+                
                 existing_request = any(
                     r['username'] == forgot_username and r['status'] == 'pending'
                     for r in reset_requests
@@ -366,6 +471,7 @@ def render_forgot_password_tab():
                     }
                     
                     reset_requests.append(reset_request)
+                    
                     if save_password_reset_requests(reset_requests):
                         st.success("✅ Password reset request submitted!")
                         st.info("📧 Your request has been sent to the Super User for approval.")
@@ -401,8 +507,10 @@ def render_forgot_password_tab():
                                     <p><strong>⚠️ Action Required:</strong> Please log in to approve or reject this request.</p>
                                     """
                                     send_email(admin_email, "Password Reset Request - Test Engineer Portal", email_body)
-                        except:
+                        except Exception as e:
                             pass
+                    else:
+                        st.error("❌ Failed to submit request. Please try again.")
         else:
             st.warning("⚠️ Please fill in all required fields.")
     

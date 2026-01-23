@@ -16678,5 +16678,2259 @@
         "module": "Audit",
         "details": "Viewed audit page",
         "metadata": {}
+    },
+    {
+        "id": "20260123102322109520",
+        "timestamp": "2026-01-23 10:23:22",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'GEGE'",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102329749643",
+        "timestamp": "2026-01-23 10:23:29",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102329870651",
+        "timestamp": "2026-01-23 10:23:29",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102329929545",
+        "timestamp": "2026-01-23 10:23:29",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102332817046",
+        "timestamp": "2026-01-23 10:23:32",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102344878684",
+        "timestamp": "2026-01-23 10:23:44",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102358892899",
+        "timestamp": "2026-01-23 10:23:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102401557536",
+        "timestamp": "2026-01-23 10:24:01",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102409169217",
+        "timestamp": "2026-01-23 10:24:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102418430379",
+        "timestamp": "2026-01-23 10:24:18",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102418999771",
+        "timestamp": "2026-01-23 10:24:18",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102420538304",
+        "timestamp": "2026-01-23 10:24:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102434524976",
+        "timestamp": "2026-01-23 10:24:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102440683549",
+        "timestamp": "2026-01-23 10:24:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123102443655110",
+        "timestamp": "2026-01-23 10:24:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112610194583",
+        "timestamp": "2026-01-23 11:26:10",
+        "user": "superuser",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'superuser' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112610392144",
+        "timestamp": "2026-01-23 11:26:10",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112610439198",
+        "timestamp": "2026-01-23 11:26:10",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112612110424",
+        "timestamp": "2026-01-23 11:26:12",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112612189497",
+        "timestamp": "2026-01-23 11:26:12",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112630954803",
+        "timestamp": "2026-01-23 11:26:30",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112631005593",
+        "timestamp": "2026-01-23 11:26:31",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112631089672",
+        "timestamp": "2026-01-23 11:26:31",
+        "user": "superuser",
+        "action": "APPROVE",
+        "module": "User Management",
+        "details": "Approved user: SZUD as user",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112631221025",
+        "timestamp": "2026-01-23 11:26:31",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112631273254",
+        "timestamp": "2026-01-23 11:26:31",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112647244661",
+        "timestamp": "2026-01-23 11:26:47",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112647338655",
+        "timestamp": "2026-01-23 11:26:47",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112647397265",
+        "timestamp": "2026-01-23 11:26:47",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112651462649",
+        "timestamp": "2026-01-23 11:26:51",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112651602913",
+        "timestamp": "2026-01-23 11:26:51",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112706503810",
+        "timestamp": "2026-01-23 11:27:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112706570984",
+        "timestamp": "2026-01-23 11:27:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112706757823",
+        "timestamp": "2026-01-23 11:27:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112706835798",
+        "timestamp": "2026-01-23 11:27:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112710080667",
+        "timestamp": "2026-01-23 11:27:10",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112710123950",
+        "timestamp": "2026-01-23 11:27:10",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112710288342",
+        "timestamp": "2026-01-23 11:27:10",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112710359266",
+        "timestamp": "2026-01-23 11:27:10",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112749384105",
+        "timestamp": "2026-01-23 11:27:49",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112749530912",
+        "timestamp": "2026-01-23 11:27:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112749617611",
+        "timestamp": "2026-01-23 11:27:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112751288287",
+        "timestamp": "2026-01-23 11:27:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112751358204",
+        "timestamp": "2026-01-23 11:27:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112806078428",
+        "timestamp": "2026-01-23 11:28:06",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112806227825",
+        "timestamp": "2026-01-23 11:28:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112806300525",
+        "timestamp": "2026-01-23 11:28:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112808318780",
+        "timestamp": "2026-01-23 11:28:08",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112808389289",
+        "timestamp": "2026-01-23 11:28:08",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112817243826",
+        "timestamp": "2026-01-23 11:28:17",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112817332809",
+        "timestamp": "2026-01-23 11:28:17",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112819868751",
+        "timestamp": "2026-01-23 11:28:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112819966122",
+        "timestamp": "2026-01-23 11:28:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112832366853",
+        "timestamp": "2026-01-23 11:28:32",
+        "user": "superuser",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'superuser' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112832485958",
+        "timestamp": "2026-01-23 11:28:32",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112832564503",
+        "timestamp": "2026-01-23 11:28:32",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112837933680",
+        "timestamp": "2026-01-23 11:28:37",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112838016529",
+        "timestamp": "2026-01-23 11:28:38",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112844889017",
+        "timestamp": "2026-01-23 11:28:44",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112844980001",
+        "timestamp": "2026-01-23 11:28:44",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112845163184",
+        "timestamp": "2026-01-23 11:28:45",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112845231283",
+        "timestamp": "2026-01-23 11:28:45",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112851280357",
+        "timestamp": "2026-01-23 11:28:51",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112851435882",
+        "timestamp": "2026-01-23 11:28:51",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Superuser",
+        "details": "Viewed superuser page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112853936381",
+        "timestamp": "2026-01-23 11:28:53",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112854066005",
+        "timestamp": "2026-01-23 11:28:54",
+        "user": "superuser",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112912201019",
+        "timestamp": "2026-01-23 11:29:12",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112912337051",
+        "timestamp": "2026-01-23 11:29:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112912429382",
+        "timestamp": "2026-01-23 11:29:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112915245693",
+        "timestamp": "2026-01-23 11:29:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123112923162984",
+        "timestamp": "2026-01-23 11:29:23",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113033128432",
+        "timestamp": "2026-01-23 11:30:33",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113033345174",
+        "timestamp": "2026-01-23 11:30:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113033474177",
+        "timestamp": "2026-01-23 11:30:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113036976315",
+        "timestamp": "2026-01-23 11:30:36",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113037062073",
+        "timestamp": "2026-01-23 11:30:37",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113037329294",
+        "timestamp": "2026-01-23 11:30:37",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113037443930",
+        "timestamp": "2026-01-23 11:30:37",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113057500427",
+        "timestamp": "2026-01-23 11:30:57",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113057756457",
+        "timestamp": "2026-01-23 11:30:57",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113057872872",
+        "timestamp": "2026-01-23 11:30:57",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113103956923",
+        "timestamp": "2026-01-23 11:31:03",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113104057228",
+        "timestamp": "2026-01-23 11:31:04",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113107284223",
+        "timestamp": "2026-01-23 11:31:07",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113107377733",
+        "timestamp": "2026-01-23 11:31:07",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113113291843",
+        "timestamp": "2026-01-23 11:31:13",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113113422009",
+        "timestamp": "2026-01-23 11:31:13",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113116311700",
+        "timestamp": "2026-01-23 11:31:16",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113116422418",
+        "timestamp": "2026-01-23 11:31:16",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113123041807",
+        "timestamp": "2026-01-23 11:31:23",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113123112005",
+        "timestamp": "2026-01-23 11:31:23",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113124561152",
+        "timestamp": "2026-01-23 11:31:24",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113124642199",
+        "timestamp": "2026-01-23 11:31:24",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113126763649",
+        "timestamp": "2026-01-23 11:31:26",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113126874379",
+        "timestamp": "2026-01-23 11:31:26",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113128273218",
+        "timestamp": "2026-01-23 11:31:28",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113128355047",
+        "timestamp": "2026-01-23 11:31:28",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113128917982",
+        "timestamp": "2026-01-23 11:31:28",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113129006693",
+        "timestamp": "2026-01-23 11:31:29",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113129154624",
+        "timestamp": "2026-01-23 11:31:29",
+        "user": "SZUD",
+        "action": "CREATE",
+        "module": "Trail Audit Documents",
+        "details": "trail_audit_document 20260123113129 - trail: NN123, category: Build, document_name: UAT plan",
+        "metadata": {
+            "category": "trail_audit_documents",
+            "entity_type": "trail_audit_document",
+            "entity_id": "20260123113129",
+            "success": true,
+            "details": {
+                "trail": "NN123",
+                "category": "Build",
+                "document_name": "UAT plan"
+            }
+        }
+    },
+    {
+        "id": "20260123113129356127",
+        "timestamp": "2026-01-23 11:31:29",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113129465065",
+        "timestamp": "2026-01-23 11:31:29",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113136399830",
+        "timestamp": "2026-01-23 11:31:36",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113136455565",
+        "timestamp": "2026-01-23 11:31:36",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113136524861",
+        "timestamp": "2026-01-23 11:31:36",
+        "user": "SZUD",
+        "action": "CREATE",
+        "module": "Trail Audit Documents",
+        "details": "trail_audit_document 20260123113136 - trail: NN123, category: Build, document_name: UAT plan",
+        "metadata": {
+            "category": "trail_audit_documents",
+            "entity_type": "trail_audit_document",
+            "entity_id": "20260123113136",
+            "success": true,
+            "details": {
+                "trail": "NN123",
+                "category": "Build",
+                "document_name": "UAT plan"
+            }
+        }
+    },
+    {
+        "id": "20260123113136640155",
+        "timestamp": "2026-01-23 11:31:36",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113136725604",
+        "timestamp": "2026-01-23 11:31:36",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113329115178",
+        "timestamp": "2026-01-23 11:33:29",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113329283031",
+        "timestamp": "2026-01-23 11:33:29",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113329340031",
+        "timestamp": "2026-01-23 11:33:29",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113330982980",
+        "timestamp": "2026-01-23 11:33:30",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123113331069234",
+        "timestamp": "2026-01-23 11:33:31",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123114704201810",
+        "timestamp": "2026-01-23 11:47:04",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123114704382534",
+        "timestamp": "2026-01-23 11:47:04",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123114704487251",
+        "timestamp": "2026-01-23 11:47:04",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123114705902847",
+        "timestamp": "2026-01-23 11:47:05",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123114705996751",
+        "timestamp": "2026-01-23 11:47:05",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115542840171",
+        "timestamp": "2026-01-23 11:55:42",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115542884633",
+        "timestamp": "2026-01-23 11:55:42",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115549421447",
+        "timestamp": "2026-01-23 11:55:49",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115549470468",
+        "timestamp": "2026-01-23 11:55:49",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115552039888",
+        "timestamp": "2026-01-23 11:55:52",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115552088177",
+        "timestamp": "2026-01-23 11:55:52",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115556463000",
+        "timestamp": "2026-01-23 11:55:56",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115556503785",
+        "timestamp": "2026-01-23 11:55:56",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115601015034",
+        "timestamp": "2026-01-23 11:56:01",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115601105475",
+        "timestamp": "2026-01-23 11:56:01",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115602380864",
+        "timestamp": "2026-01-23 11:56:02",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123115602463898",
+        "timestamp": "2026-01-23 11:56:02",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120137826293",
+        "timestamp": "2026-01-23 12:01:37",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120137968944",
+        "timestamp": "2026-01-23 12:01:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120138025987",
+        "timestamp": "2026-01-23 12:01:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120140056584",
+        "timestamp": "2026-01-23 12:01:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120140153325",
+        "timestamp": "2026-01-23 12:01:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120146938147",
+        "timestamp": "2026-01-23 12:01:46",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120147000391",
+        "timestamp": "2026-01-23 12:01:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120147171718",
+        "timestamp": "2026-01-23 12:01:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120149747821",
+        "timestamp": "2026-01-23 12:01:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120149809185",
+        "timestamp": "2026-01-23 12:01:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120155685011",
+        "timestamp": "2026-01-23 12:01:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120155738782",
+        "timestamp": "2026-01-23 12:01:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120200018177",
+        "timestamp": "2026-01-23 12:02:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120200086855",
+        "timestamp": "2026-01-23 12:02:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120203855905",
+        "timestamp": "2026-01-23 12:02:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120203920786",
+        "timestamp": "2026-01-23 12:02:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120209139073",
+        "timestamp": "2026-01-23 12:02:09",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120209189030",
+        "timestamp": "2026-01-23 12:02:09",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120217772281",
+        "timestamp": "2026-01-23 12:02:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120217836251",
+        "timestamp": "2026-01-23 12:02:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120221029226",
+        "timestamp": "2026-01-23 12:02:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120221103047",
+        "timestamp": "2026-01-23 12:02:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120240237920",
+        "timestamp": "2026-01-23 12:02:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120240319906",
+        "timestamp": "2026-01-23 12:02:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120254627387",
+        "timestamp": "2026-01-23 12:02:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120254691741",
+        "timestamp": "2026-01-23 12:02:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120325022345",
+        "timestamp": "2026-01-23 12:03:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120325078539",
+        "timestamp": "2026-01-23 12:03:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120338837807",
+        "timestamp": "2026-01-23 12:03:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120338889770",
+        "timestamp": "2026-01-23 12:03:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120340450440",
+        "timestamp": "2026-01-23 12:03:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120340530544",
+        "timestamp": "2026-01-23 12:03:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120341831185",
+        "timestamp": "2026-01-23 12:03:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120341897330",
+        "timestamp": "2026-01-23 12:03:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120344023428",
+        "timestamp": "2026-01-23 12:03:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120344097386",
+        "timestamp": "2026-01-23 12:03:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120356307097",
+        "timestamp": "2026-01-23 12:03:56",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120356372655",
+        "timestamp": "2026-01-23 12:03:56",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120357655435",
+        "timestamp": "2026-01-23 12:03:57",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120357715043",
+        "timestamp": "2026-01-23 12:03:57",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120357829277",
+        "timestamp": "2026-01-23 12:03:57",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Trail Audit Documents",
+        "details": "trail_audit_document 20260123120357 - trail: NN1234-4444, category: Change Request, document_name: UAT plan and Outcome, tmf_vault_id: TMF-11993323",
+        "metadata": {
+            "category": "trail_audit_documents",
+            "entity_type": "trail_audit_document",
+            "entity_id": "20260123120357",
+            "success": true,
+            "details": {
+                "trail": "NN1234-4444",
+                "category": "Change Request",
+                "document_name": "UAT plan and Outcome",
+                "tmf_vault_id": "TMF-11993323"
+            }
+        }
+    },
+    {
+        "id": "20260123120420400021",
+        "timestamp": "2026-01-23 12:04:20",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120420561854",
+        "timestamp": "2026-01-23 12:04:20",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120420618210",
+        "timestamp": "2026-01-23 12:04:20",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120422237727",
+        "timestamp": "2026-01-23 12:04:22",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120422313679",
+        "timestamp": "2026-01-23 12:04:22",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120433988903",
+        "timestamp": "2026-01-23 12:04:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120434052447",
+        "timestamp": "2026-01-23 12:04:34",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120444114183",
+        "timestamp": "2026-01-23 12:04:44",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120444180799",
+        "timestamp": "2026-01-23 12:04:44",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120446995455",
+        "timestamp": "2026-01-23 12:04:46",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120447045511",
+        "timestamp": "2026-01-23 12:04:47",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120451488384",
+        "timestamp": "2026-01-23 12:04:51",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120451559994",
+        "timestamp": "2026-01-23 12:04:51",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120716013356",
+        "timestamp": "2026-01-23 12:07:16",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120716071960",
+        "timestamp": "2026-01-23 12:07:16",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120719246067",
+        "timestamp": "2026-01-23 12:07:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120719319055",
+        "timestamp": "2026-01-23 12:07:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120721694770",
+        "timestamp": "2026-01-23 12:07:21",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123120721779046",
+        "timestamp": "2026-01-23 12:07:21",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123121200993205",
+        "timestamp": "2026-01-23 12:12:00",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123121201031267",
+        "timestamp": "2026-01-23 12:12:01",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122205176744",
+        "timestamp": "2026-01-23 12:22:05",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122205289135",
+        "timestamp": "2026-01-23 12:22:05",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122205348041",
+        "timestamp": "2026-01-23 12:22:05",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122206944179",
+        "timestamp": "2026-01-23 12:22:06",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122207029540",
+        "timestamp": "2026-01-23 12:22:07",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122232721912",
+        "timestamp": "2026-01-23 12:22:32",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122232785515",
+        "timestamp": "2026-01-23 12:22:32",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122233039080",
+        "timestamp": "2026-01-23 12:22:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122233098033",
+        "timestamp": "2026-01-23 12:22:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122259570281",
+        "timestamp": "2026-01-23 12:22:59",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122259649890",
+        "timestamp": "2026-01-23 12:22:59",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122530425541",
+        "timestamp": "2026-01-23 12:25:30",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122530502795",
+        "timestamp": "2026-01-23 12:25:30",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122537015063",
+        "timestamp": "2026-01-23 12:25:37",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123122537103434",
+        "timestamp": "2026-01-23 12:25:37",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123114440363",
+        "timestamp": "2026-01-23 12:31:14",
+        "user": "SZUD",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'SZUD' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123114638698",
+        "timestamp": "2026-01-23 12:31:14",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123114697505",
+        "timestamp": "2026-01-23 12:31:14",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123115704709",
+        "timestamp": "2026-01-23 12:31:15",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123115810289",
+        "timestamp": "2026-01-23 12:31:15",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123128650355",
+        "timestamp": "2026-01-23 12:31:28",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123128724859",
+        "timestamp": "2026-01-23 12:31:28",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123133053589",
+        "timestamp": "2026-01-23 12:31:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123133121075",
+        "timestamp": "2026-01-23 12:31:33",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123257913990",
+        "timestamp": "2026-01-23 12:32:57",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123257971293",
+        "timestamp": "2026-01-23 12:32:57",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123313724637",
+        "timestamp": "2026-01-23 12:33:13",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123313765642",
+        "timestamp": "2026-01-23 12:33:13",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123319261283",
+        "timestamp": "2026-01-23 12:33:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123319301979",
+        "timestamp": "2026-01-23 12:33:19",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123321861300",
+        "timestamp": "2026-01-23 12:33:21",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123321916247",
+        "timestamp": "2026-01-23 12:33:21",
+        "user": "SZUD",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123407340061",
+        "timestamp": "2026-01-23 12:34:07",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123413261449",
+        "timestamp": "2026-01-23 12:34:13",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123413354240",
+        "timestamp": "2026-01-23 12:34:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123413411333",
+        "timestamp": "2026-01-23 12:34:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123415217830",
+        "timestamp": "2026-01-23 12:34:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123415263845",
+        "timestamp": "2026-01-23 12:34:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123417513490",
+        "timestamp": "2026-01-23 12:34:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123417564891",
+        "timestamp": "2026-01-23 12:34:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123418665611",
+        "timestamp": "2026-01-23 12:34:18",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123418736046",
+        "timestamp": "2026-01-23 12:34:18",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123429678119",
+        "timestamp": "2026-01-23 12:34:29",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123429729020",
+        "timestamp": "2026-01-23 12:34:29",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123443030684",
+        "timestamp": "2026-01-23 12:34:43",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123443126752",
+        "timestamp": "2026-01-23 12:34:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123443163741",
+        "timestamp": "2026-01-23 12:34:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123445153332",
+        "timestamp": "2026-01-23 12:34:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123450340751",
+        "timestamp": "2026-01-23 12:34:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123525629614",
+        "timestamp": "2026-01-23 12:35:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123525676565",
+        "timestamp": "2026-01-23 12:35:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123612848834",
+        "timestamp": "2026-01-23 12:36:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123612875272",
+        "timestamp": "2026-01-23 12:36:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123123614325382",
+        "timestamp": "2026-01-23 12:36:14",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123132054830769",
+        "timestamp": "2026-01-23 13:20:54",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123132054964785",
+        "timestamp": "2026-01-23 13:20:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123132055040679",
+        "timestamp": "2026-01-23 13:20:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
     }
 ]
