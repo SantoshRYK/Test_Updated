@@ -14680,5 +14680,2003 @@
         "module": "Home",
         "details": "Viewed home page",
         "metadata": {}
+    },
+    {
+        "id": "20260107091521899435",
+        "timestamp": "2026-01-07 09:15:21",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091522123239",
+        "timestamp": "2026-01-07 09:15:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091522216564",
+        "timestamp": "2026-01-07 09:15:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091526234325",
+        "timestamp": "2026-01-07 09:15:26",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091526350461",
+        "timestamp": "2026-01-07 09:15:26",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091832735560",
+        "timestamp": "2026-01-07 09:18:32",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091832966438",
+        "timestamp": "2026-01-07 09:18:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091833067902",
+        "timestamp": "2026-01-07 09:18:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091905557129",
+        "timestamp": "2026-01-07 09:19:05",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091905872990",
+        "timestamp": "2026-01-07 09:19:05",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107091905966909",
+        "timestamp": "2026-01-07 09:19:05",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092003857045",
+        "timestamp": "2026-01-07 09:20:03",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092004070604",
+        "timestamp": "2026-01-07 09:20:04",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092004166160",
+        "timestamp": "2026-01-07 09:20:04",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092149509835",
+        "timestamp": "2026-01-07 09:21:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092149577250",
+        "timestamp": "2026-01-07 09:21:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092250767918",
+        "timestamp": "2026-01-07 09:22:50",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092251033146",
+        "timestamp": "2026-01-07 09:22:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092251149081",
+        "timestamp": "2026-01-07 09:22:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092253081706",
+        "timestamp": "2026-01-07 09:22:53",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092253212873",
+        "timestamp": "2026-01-07 09:22:53",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092530403555",
+        "timestamp": "2026-01-07 09:25:30",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092530480762",
+        "timestamp": "2026-01-07 09:25:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092530511734",
+        "timestamp": "2026-01-07 09:25:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092532389885",
+        "timestamp": "2026-01-07 09:25:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092532422529",
+        "timestamp": "2026-01-07 09:25:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092851785391",
+        "timestamp": "2026-01-07 09:28:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092851843811",
+        "timestamp": "2026-01-07 09:28:51",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092904301706",
+        "timestamp": "2026-01-07 09:29:04",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092904467124",
+        "timestamp": "2026-01-07 09:29:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092904543632",
+        "timestamp": "2026-01-07 09:29:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092909392196",
+        "timestamp": "2026-01-07 09:29:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107092930376048",
+        "timestamp": "2026-01-07 09:29:30",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093742551394",
+        "timestamp": "2026-01-07 09:37:42",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093742752374",
+        "timestamp": "2026-01-07 09:37:42",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093742812953",
+        "timestamp": "2026-01-07 09:37:42",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093744601056",
+        "timestamp": "2026-01-07 09:37:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093744681923",
+        "timestamp": "2026-01-07 09:37:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093911123151",
+        "timestamp": "2026-01-07 09:39:11",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093911166708",
+        "timestamp": "2026-01-07 09:39:11",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093912477437",
+        "timestamp": "2026-01-07 09:39:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093912510893",
+        "timestamp": "2026-01-07 09:39:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093912615115",
+        "timestamp": "2026-01-07 09:39:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093912659339",
+        "timestamp": "2026-01-07 09:39:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093917451269",
+        "timestamp": "2026-01-07 09:39:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093917509506",
+        "timestamp": "2026-01-07 09:39:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093933075854",
+        "timestamp": "2026-01-07 09:39:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093933148448",
+        "timestamp": "2026-01-07 09:39:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093935188449",
+        "timestamp": "2026-01-07 09:39:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093935260136",
+        "timestamp": "2026-01-07 09:39:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093936606400",
+        "timestamp": "2026-01-07 09:39:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093936690804",
+        "timestamp": "2026-01-07 09:39:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093939414256",
+        "timestamp": "2026-01-07 09:39:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093939474635",
+        "timestamp": "2026-01-07 09:39:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093940690985",
+        "timestamp": "2026-01-07 09:39:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093940758485",
+        "timestamp": "2026-01-07 09:39:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093949258711",
+        "timestamp": "2026-01-07 09:39:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093949324535",
+        "timestamp": "2026-01-07 09:39:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093949742436",
+        "timestamp": "2026-01-07 09:39:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093949799120",
+        "timestamp": "2026-01-07 09:39:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093949998878",
+        "timestamp": "2026-01-07 09:39:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107093950056827",
+        "timestamp": "2026-01-07 09:39:50",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094106091946",
+        "timestamp": "2026-01-07 09:41:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094106150122",
+        "timestamp": "2026-01-07 09:41:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094106490906",
+        "timestamp": "2026-01-07 09:41:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094106530764",
+        "timestamp": "2026-01-07 09:41:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094107015874",
+        "timestamp": "2026-01-07 09:41:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094107056101",
+        "timestamp": "2026-01-07 09:41:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094121408940",
+        "timestamp": "2026-01-07 09:41:21",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094121598215",
+        "timestamp": "2026-01-07 09:41:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094121660497",
+        "timestamp": "2026-01-07 09:41:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094124259247",
+        "timestamp": "2026-01-07 09:41:24",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094124334507",
+        "timestamp": "2026-01-07 09:41:24",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094127652689",
+        "timestamp": "2026-01-07 09:41:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094127721453",
+        "timestamp": "2026-01-07 09:41:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094131762637",
+        "timestamp": "2026-01-07 09:41:31",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094131819637",
+        "timestamp": "2026-01-07 09:41:31",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094133128018",
+        "timestamp": "2026-01-07 09:41:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094133204562",
+        "timestamp": "2026-01-07 09:41:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094134522028",
+        "timestamp": "2026-01-07 09:41:34",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094134586607",
+        "timestamp": "2026-01-07 09:41:34",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094137013655",
+        "timestamp": "2026-01-07 09:41:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094137070916",
+        "timestamp": "2026-01-07 09:41:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094138093001",
+        "timestamp": "2026-01-07 09:41:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094138157758",
+        "timestamp": "2026-01-07 09:41:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094139423204",
+        "timestamp": "2026-01-07 09:41:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094139496317",
+        "timestamp": "2026-01-07 09:41:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094139671631",
+        "timestamp": "2026-01-07 09:41:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094249708566",
+        "timestamp": "2026-01-07 09:42:49",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094258691931",
+        "timestamp": "2026-01-07 09:42:58",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094258871606",
+        "timestamp": "2026-01-07 09:42:58",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094258944358",
+        "timestamp": "2026-01-07 09:42:58",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094300220727",
+        "timestamp": "2026-01-07 09:43:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094300302351",
+        "timestamp": "2026-01-07 09:43:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094303611815",
+        "timestamp": "2026-01-07 09:43:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094303685309",
+        "timestamp": "2026-01-07 09:43:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094306008624",
+        "timestamp": "2026-01-07 09:43:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094306078548",
+        "timestamp": "2026-01-07 09:43:06",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094307244982",
+        "timestamp": "2026-01-07 09:43:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094307316870",
+        "timestamp": "2026-01-07 09:43:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094308370750",
+        "timestamp": "2026-01-07 09:43:08",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094308442339",
+        "timestamp": "2026-01-07 09:43:08",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094313218300",
+        "timestamp": "2026-01-07 09:43:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094313280011",
+        "timestamp": "2026-01-07 09:43:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094314565663",
+        "timestamp": "2026-01-07 09:43:14",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094314630532",
+        "timestamp": "2026-01-07 09:43:14",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094315671352",
+        "timestamp": "2026-01-07 09:43:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094315854221",
+        "timestamp": "2026-01-07 09:43:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094315934514",
+        "timestamp": "2026-01-07 09:43:15",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094322314982",
+        "timestamp": "2026-01-07 09:43:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094322388339",
+        "timestamp": "2026-01-07 09:43:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094323269348",
+        "timestamp": "2026-01-07 09:43:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094323350517",
+        "timestamp": "2026-01-07 09:43:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094324376484",
+        "timestamp": "2026-01-07 09:43:24",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094324431275",
+        "timestamp": "2026-01-07 09:43:24",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094330971274",
+        "timestamp": "2026-01-07 09:43:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094331048951",
+        "timestamp": "2026-01-07 09:43:31",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094332522599",
+        "timestamp": "2026-01-07 09:43:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094332583648",
+        "timestamp": "2026-01-07 09:43:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094335167972",
+        "timestamp": "2026-01-07 09:43:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094335248646",
+        "timestamp": "2026-01-07 09:43:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094336748438",
+        "timestamp": "2026-01-07 09:43:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094336816755",
+        "timestamp": "2026-01-07 09:43:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094337020338",
+        "timestamp": "2026-01-07 09:43:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094337087748",
+        "timestamp": "2026-01-07 09:43:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094341828204",
+        "timestamp": "2026-01-07 09:43:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094341899330",
+        "timestamp": "2026-01-07 09:43:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094343170139",
+        "timestamp": "2026-01-07 09:43:43",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094343249239",
+        "timestamp": "2026-01-07 09:43:43",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094554129099",
+        "timestamp": "2026-01-07 09:45:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260107094554166436",
+        "timestamp": "2026-01-07 09:45:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104039302020",
+        "timestamp": "2026-01-08 10:40:39",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'NHYK'",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104043516683",
+        "timestamp": "2026-01-08 10:40:43",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104043604538",
+        "timestamp": "2026-01-08 10:40:43",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104043664183",
+        "timestamp": "2026-01-08 10:40:43",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104046624849",
+        "timestamp": "2026-01-08 10:40:46",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104046683875",
+        "timestamp": "2026-01-08 10:40:46",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104125230201",
+        "timestamp": "2026-01-08 10:41:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104125265795",
+        "timestamp": "2026-01-08 10:41:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104127301333",
+        "timestamp": "2026-01-08 10:41:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108104127353362",
+        "timestamp": "2026-01-08 10:41:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105241472071",
+        "timestamp": "2026-01-08 10:52:41",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105241565460",
+        "timestamp": "2026-01-08 10:52:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105241625073",
+        "timestamp": "2026-01-08 10:52:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105250398015",
+        "timestamp": "2026-01-08 10:52:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105253017428",
+        "timestamp": "2026-01-08 10:52:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105253949724",
+        "timestamp": "2026-01-08 10:52:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105257084553",
+        "timestamp": "2026-01-08 10:52:57",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105304048362",
+        "timestamp": "2026-01-08 10:53:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105317669629",
+        "timestamp": "2026-01-08 10:53:17",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105335171972",
+        "timestamp": "2026-01-08 10:53:35",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105335271523",
+        "timestamp": "2026-01-08 10:53:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105335314585",
+        "timestamp": "2026-01-08 10:53:35",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105337450004",
+        "timestamp": "2026-01-08 10:53:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108105337506611",
+        "timestamp": "2026-01-08 10:53:37",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110255523881",
+        "timestamp": "2026-01-08 11:02:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110255577721",
+        "timestamp": "2026-01-08 11:02:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110321451598",
+        "timestamp": "2026-01-08 11:03:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110321499664",
+        "timestamp": "2026-01-08 11:03:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110323259853",
+        "timestamp": "2026-01-08 11:03:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110323307313",
+        "timestamp": "2026-01-08 11:03:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110341530288",
+        "timestamp": "2026-01-08 11:03:41",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110341631924",
+        "timestamp": "2026-01-08 11:03:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110341683024",
+        "timestamp": "2026-01-08 11:03:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110343328814",
+        "timestamp": "2026-01-08 11:03:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110343389168",
+        "timestamp": "2026-01-08 11:03:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110400248997",
+        "timestamp": "2026-01-08 11:04:00",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110400353068",
+        "timestamp": "2026-01-08 11:04:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110400407951",
+        "timestamp": "2026-01-08 11:04:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110401562516",
+        "timestamp": "2026-01-08 11:04:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108110401621685",
+        "timestamp": "2026-01-08 11:04:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113820829534",
+        "timestamp": "2026-01-08 11:38:20",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113820883338",
+        "timestamp": "2026-01-08 11:38:20",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113821000735",
+        "timestamp": "2026-01-08 11:38:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113821046299",
+        "timestamp": "2026-01-08 11:38:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113839546748",
+        "timestamp": "2026-01-08 11:38:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113839594512",
+        "timestamp": "2026-01-08 11:38:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113903868871",
+        "timestamp": "2026-01-08 11:39:03",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'GEGE'",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113907603338",
+        "timestamp": "2026-01-08 11:39:07",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113907718226",
+        "timestamp": "2026-01-08 11:39:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113907766878",
+        "timestamp": "2026-01-08 11:39:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113920617963",
+        "timestamp": "2026-01-08 11:39:20",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113920732227",
+        "timestamp": "2026-01-08 11:39:20",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113920790743",
+        "timestamp": "2026-01-08 11:39:20",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113921928697",
+        "timestamp": "2026-01-08 11:39:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113922000711",
+        "timestamp": "2026-01-08 11:39:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113922554124",
+        "timestamp": "2026-01-08 11:39:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108113922604968",
+        "timestamp": "2026-01-08 11:39:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163440055874",
+        "timestamp": "2026-01-08 16:34:40",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163440141805",
+        "timestamp": "2026-01-08 16:34:40",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163541969458",
+        "timestamp": "2026-01-08 16:35:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163543615507",
+        "timestamp": "2026-01-08 16:35:43",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163544966049",
+        "timestamp": "2026-01-08 16:35:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163546400788",
+        "timestamp": "2026-01-08 16:35:46",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163547416021",
+        "timestamp": "2026-01-08 16:35:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163547485121",
+        "timestamp": "2026-01-08 16:35:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163600910315",
+        "timestamp": "2026-01-08 16:36:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163600964002",
+        "timestamp": "2026-01-08 16:36:00",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163612532058",
+        "timestamp": "2026-01-08 16:36:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163658233981",
+        "timestamp": "2026-01-08 16:36:58",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163658334401",
+        "timestamp": "2026-01-08 16:36:58",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163701022202",
+        "timestamp": "2026-01-08 16:37:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163702245288",
+        "timestamp": "2026-01-08 16:37:02",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163702336179",
+        "timestamp": "2026-01-08 16:37:02",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163703857606",
+        "timestamp": "2026-01-08 16:37:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163703951125",
+        "timestamp": "2026-01-08 16:37:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163705028948",
+        "timestamp": "2026-01-08 16:37:05",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163752380041",
+        "timestamp": "2026-01-08 16:37:52",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'nhyk'",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163756383838",
+        "timestamp": "2026-01-08 16:37:56",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163756486674",
+        "timestamp": "2026-01-08 16:37:56",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163756531922",
+        "timestamp": "2026-01-08 16:37:56",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163759236286",
+        "timestamp": "2026-01-08 16:37:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260108163759275752",
+        "timestamp": "2026-01-08 16:37:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112908282180",
+        "timestamp": "2026-01-16 11:29:08",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112908444556",
+        "timestamp": "2026-01-16 11:29:08",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112908528646",
+        "timestamp": "2026-01-16 11:29:08",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112912147326",
+        "timestamp": "2026-01-16 11:29:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112912832368",
+        "timestamp": "2026-01-16 11:29:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112923547043",
+        "timestamp": "2026-01-16 11:29:23",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112923627721",
+        "timestamp": "2026-01-16 11:29:23",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112926398276",
+        "timestamp": "2026-01-16 11:29:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260116112926541685",
+        "timestamp": "2026-01-16 11:29:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
     }
 ]

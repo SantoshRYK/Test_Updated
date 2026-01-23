@@ -51,10 +51,11 @@ def render_main_navigation(role: str):
         st.session_state.current_page = "home"
         st.rerun()
     
-    # Allocation
-    if st.button("📊 Allocation", use_container_width=True, key="nav_allocation"):
-        st.session_state.current_page = "allocation"
-        st.rerun()
+    # Allocation - HIDDEN FOR MANAGERS
+    if role != "manager":
+        if st.button("📊 Allocation", use_container_width=True, key="nav_allocation"):
+            st.session_state.current_page = "allocation"
+            st.rerun()
     
     # Audit Trail
     if st.button("🔍 Audit Documents", use_container_width=True, key="nav_audit"):

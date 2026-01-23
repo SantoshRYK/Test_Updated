@@ -97,6 +97,14 @@ def render_allocation_create_tab():
             st.error("❌ Activity is required")
             return
         
+        if not start_date:
+            st.error("❌ Start Date is required")
+            return
+        
+        if not end_date:
+            st.error("❌ End Date is required")
+            return
+
         # Date validation
         if end_date < start_date:
             st.error("❌ End date must be after start date")
