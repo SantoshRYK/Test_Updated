@@ -145,6 +145,8 @@ def render_allocation_create_tab():
             st.success(f"✅ {message}")
             st.balloons()
             # Clear form by rerunning
+            import time
+            time.sleep(1)            
             st.rerun()
         else:
             st.error(f"❌ {message}")
