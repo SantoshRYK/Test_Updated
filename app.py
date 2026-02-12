@@ -320,6 +320,11 @@ def route_to_page(page: str):
         from pages.audit.audit_main import render_audit_page
         render_audit_page()
     
+    # ✅ NEW: Trial Quality Matrix
+    elif page == "quality":
+        from pages.quality.quality_main import render
+        render()
+    
     elif page == "all_allocations":
         role = get_current_role()
         if role == "manager":

@@ -67,6 +67,12 @@ def render_main_navigation(role: str):
         if st.button("✅ UAT Status", use_container_width=True, key="nav_uat"):
             st.session_state.current_page = "uat"
             st.rerun()
+    
+    # ✅ NEW: Trial Quality Matrix (Available for Users and Managers)
+    if role in ["user", "manager"]:
+        if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality"):
+            st.session_state.current_page = "quality"
+            st.rerun()
 
 def render_superuser_menu():
     """Render superuser-specific menu"""
@@ -96,6 +102,11 @@ def render_superuser_menu():
     if st.button("📧 Email Settings", use_container_width=True, key="nav_email"):
         st.session_state.current_page = "email_settings"
         st.rerun()
+    
+    # ✅ NEW: Quality Matrix for Superuser (Full Access)
+    if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality_super"):
+        st.session_state.current_page = "quality"
+        st.rerun()
 
 def render_manager_menu():
     """Render manager-specific menu"""
@@ -116,6 +127,9 @@ def render_manager_menu():
     if st.button("✅ UAT Status", use_container_width=True, key="nav_uat_manager"):
         st.session_state.current_page = "uat"
         st.rerun()
+    
+    # ✅ Trial Quality Matrix is already in main navigation for managers
+    # No need to duplicate here since it's in render_main_navigation()
 
 def render_admin_menu():
     """Render admin-specific menu"""
@@ -135,4 +149,9 @@ def render_admin_menu():
     # Email Settings
     if st.button("📧 Email Settings", use_container_width=True, key="nav_email_admin"):
         st.session_state.current_page = "email_settings"
+        st.rerun()
+    
+    # ✅ NEW: Quality Matrix for Admin (Full Access)
+    if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality_admin"):
+        st.session_state.current_page = "quality"
         st.rerun()

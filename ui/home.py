@@ -21,7 +21,7 @@ def render_home_page():
         "superuser": "👑 Super User",
         "manager": "👨‍💼 Manager",
         "admin": "🔧 Admin",
-        "user": "👤 User"
+        "user": "👤 Test Engineer"
     }
     
     st.markdown(f"### {role_display.get(role, '👤 User')}")

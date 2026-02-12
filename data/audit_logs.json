@@ -18932,5 +18932,4947 @@
         "module": "Home",
         "details": "Viewed home page",
         "metadata": {}
+    },
+    {
+        "id": "20260123133801364565",
+        "timestamp": "2026-01-23 13:38:01",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133801511838",
+        "timestamp": "2026-01-23 13:38:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133801614600",
+        "timestamp": "2026-01-23 13:38:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133833492938",
+        "timestamp": "2026-01-23 13:38:33",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133833634614",
+        "timestamp": "2026-01-23 13:38:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133833711014",
+        "timestamp": "2026-01-23 13:38:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133903232837",
+        "timestamp": "2026-01-23 13:39:03",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133903355700",
+        "timestamp": "2026-01-23 13:39:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123133903442204",
+        "timestamp": "2026-01-23 13:39:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134348199437",
+        "timestamp": "2026-01-23 13:43:48",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134348309165",
+        "timestamp": "2026-01-23 13:43:48",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134348386704",
+        "timestamp": "2026-01-23 13:43:48",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134354852761",
+        "timestamp": "2026-01-23 13:43:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134354945746",
+        "timestamp": "2026-01-23 13:43:54",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134405004495",
+        "timestamp": "2026-01-23 13:44:05",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134405082277",
+        "timestamp": "2026-01-23 13:44:05",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134423729524",
+        "timestamp": "2026-01-23 13:44:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123134423795334",
+        "timestamp": "2026-01-23 13:44:23",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151521501015",
+        "timestamp": "2026-01-23 15:15:21",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151521649870",
+        "timestamp": "2026-01-23 15:15:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151521762617",
+        "timestamp": "2026-01-23 15:15:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151613385014",
+        "timestamp": "2026-01-23 15:16:13",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151613487884",
+        "timestamp": "2026-01-23 15:16:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151613546840",
+        "timestamp": "2026-01-23 15:16:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151644827800",
+        "timestamp": "2026-01-23 15:16:44",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151644940091",
+        "timestamp": "2026-01-23 15:16:44",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151645025287",
+        "timestamp": "2026-01-23 15:16:45",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151713025195",
+        "timestamp": "2026-01-23 15:17:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151713170803",
+        "timestamp": "2026-01-23 15:17:13",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151816530170",
+        "timestamp": "2026-01-23 15:18:16",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151816592009",
+        "timestamp": "2026-01-23 15:18:16",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151950158004",
+        "timestamp": "2026-01-23 15:19:50",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151950285129",
+        "timestamp": "2026-01-23 15:19:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123151950342360",
+        "timestamp": "2026-01-23 15:19:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152009090528",
+        "timestamp": "2026-01-23 15:20:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152010040183",
+        "timestamp": "2026-01-23 15:20:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152020115035",
+        "timestamp": "2026-01-23 15:20:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152045552309",
+        "timestamp": "2026-01-23 15:20:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152116312368",
+        "timestamp": "2026-01-23 15:21:16",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152119403989",
+        "timestamp": "2026-01-23 15:21:19",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152129882736",
+        "timestamp": "2026-01-23 15:21:29",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152140713666",
+        "timestamp": "2026-01-23 15:21:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152143094627",
+        "timestamp": "2026-01-23 15:21:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152151313105",
+        "timestamp": "2026-01-23 15:21:51",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123152151409795",
+        "timestamp": "2026-01-23 15:21:51",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123154722556348",
+        "timestamp": "2026-01-23 15:47:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260123154722603390",
+        "timestamp": "2026-01-23 15:47:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113703713112",
+        "timestamp": "2026-01-28 11:37:03",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113704003132",
+        "timestamp": "2026-01-28 11:37:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113704113118",
+        "timestamp": "2026-01-28 11:37:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113710857263",
+        "timestamp": "2026-01-28 11:37:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113741130558",
+        "timestamp": "2026-01-28 11:37:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113747253528",
+        "timestamp": "2026-01-28 11:37:47",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113820798962",
+        "timestamp": "2026-01-28 11:38:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113845195854",
+        "timestamp": "2026-01-28 11:38:45",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113845327354",
+        "timestamp": "2026-01-28 11:38:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113845384857",
+        "timestamp": "2026-01-28 11:38:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113851270343",
+        "timestamp": "2026-01-28 11:38:51",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113853793854",
+        "timestamp": "2026-01-28 11:38:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Manager",
+        "details": "Viewed manager page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128113948142887",
+        "timestamp": "2026-01-28 11:39:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114126012748",
+        "timestamp": "2026-01-28 11:41:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114130098077",
+        "timestamp": "2026-01-28 11:41:30",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114147434933",
+        "timestamp": "2026-01-28 11:41:47",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114153836744",
+        "timestamp": "2026-01-28 11:41:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114200099612",
+        "timestamp": "2026-01-28 11:42:00",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128114202194260",
+        "timestamp": "2026-01-28 11:42:02",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115056667335",
+        "timestamp": "2026-01-28 11:50:56",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115056941997",
+        "timestamp": "2026-01-28 11:50:56",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115057027384",
+        "timestamp": "2026-01-28 11:50:57",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115100369532",
+        "timestamp": "2026-01-28 11:51:00",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115110775250",
+        "timestamp": "2026-01-28 11:51:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115526280614",
+        "timestamp": "2026-01-28 11:55:26",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115526459747",
+        "timestamp": "2026-01-28 11:55:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115526666171",
+        "timestamp": "2026-01-28 11:55:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115530694874",
+        "timestamp": "2026-01-28 11:55:30",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115639168394",
+        "timestamp": "2026-01-28 11:56:39",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115639337902",
+        "timestamp": "2026-01-28 11:56:39",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115639421097",
+        "timestamp": "2026-01-28 11:56:39",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260128115645467579",
+        "timestamp": "2026-01-28 11:56:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091057417408",
+        "timestamp": "2026-01-30 09:10:57",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091057518946",
+        "timestamp": "2026-01-30 09:10:57",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091057571703",
+        "timestamp": "2026-01-30 09:10:57",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091059917781",
+        "timestamp": "2026-01-30 09:10:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091127915622",
+        "timestamp": "2026-01-30 09:11:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091128064183",
+        "timestamp": "2026-01-30 09:11:28",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091312311705",
+        "timestamp": "2026-01-30 09:13:12",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091322397793",
+        "timestamp": "2026-01-30 09:13:22",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091322497570",
+        "timestamp": "2026-01-30 09:13:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091322565625",
+        "timestamp": "2026-01-30 09:13:22",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091324317703",
+        "timestamp": "2026-01-30 09:13:24",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091336594189",
+        "timestamp": "2026-01-30 09:13:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091336657549",
+        "timestamp": "2026-01-30 09:13:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091338094841",
+        "timestamp": "2026-01-30 09:13:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091349450100",
+        "timestamp": "2026-01-30 09:13:49",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091349575485",
+        "timestamp": "2026-01-30 09:13:49",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091349645302",
+        "timestamp": "2026-01-30 09:13:49",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091352747431",
+        "timestamp": "2026-01-30 09:13:52",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091607537547",
+        "timestamp": "2026-01-30 09:16:07",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091607649680",
+        "timestamp": "2026-01-30 09:16:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091607733697",
+        "timestamp": "2026-01-30 09:16:07",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091609302688",
+        "timestamp": "2026-01-30 09:16:09",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091836862707",
+        "timestamp": "2026-01-30 09:18:36",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091836933410",
+        "timestamp": "2026-01-30 09:18:36",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM001 - trial_id: NN9499-8242, phase: 1, defect_density: 18.46",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM001",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1",
+                "defect_density": 18.46
+            }
+        }
+    },
+    {
+        "id": "20260130091838045969",
+        "timestamp": "2026-01-30 09:18:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091932290563",
+        "timestamp": "2026-01-30 09:19:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130091932374442",
+        "timestamp": "2026-01-30 09:19:32",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM002 - trial_id: NN9499-8242, phase: 1, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM002",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260130091933480398",
+        "timestamp": "2026-01-30 09:19:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092038030395",
+        "timestamp": "2026-01-30 09:20:38",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092038109132",
+        "timestamp": "2026-01-30 09:20:38",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM003 - trial_id: NN9499-8242, phase: 1, defect_density: 15.68",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM003",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1",
+                "defect_density": 15.68
+            }
+        }
+    },
+    {
+        "id": "20260130092039227232",
+        "timestamp": "2026-01-30 09:20:39",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092117279020",
+        "timestamp": "2026-01-30 09:21:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092117363100",
+        "timestamp": "2026-01-30 09:21:17",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM004 - trial_id: NN9499-8242, phase: 1, defect_density: 15.68",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM004",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1",
+                "defect_density": 15.68
+            }
+        }
+    },
+    {
+        "id": "20260130092118473029",
+        "timestamp": "2026-01-30 09:21:18",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092141860653",
+        "timestamp": "2026-01-30 09:21:41",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092145464132",
+        "timestamp": "2026-01-30 09:21:45",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092149757195",
+        "timestamp": "2026-01-30 09:21:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092233211061",
+        "timestamp": "2026-01-30 09:22:33",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092255043419",
+        "timestamp": "2026-01-30 09:22:55",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092255121986",
+        "timestamp": "2026-01-30 09:22:55",
+        "user": "NHYK",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM005 - trial_id: NN9499-8242, phase: 1, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM005",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260130092256222804",
+        "timestamp": "2026-01-30 09:22:56",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092321434990",
+        "timestamp": "2026-01-30 09:23:21",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092321535939",
+        "timestamp": "2026-01-30 09:23:21",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092321581741",
+        "timestamp": "2026-01-30 09:23:21",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092323585572",
+        "timestamp": "2026-01-30 09:23:23",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092446185901",
+        "timestamp": "2026-01-30 09:24:46",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130092448869067",
+        "timestamp": "2026-01-30 09:24:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130100950071272",
+        "timestamp": "2026-01-30 10:09:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130101659383016",
+        "timestamp": "2026-01-30 10:16:59",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130101659527798",
+        "timestamp": "2026-01-30 10:16:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130101659593720",
+        "timestamp": "2026-01-30 10:16:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130101701201022",
+        "timestamp": "2026-01-30 10:17:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130101701254809",
+        "timestamp": "2026-01-30 10:17:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102148107190",
+        "timestamp": "2026-01-30 10:21:48",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102148151783",
+        "timestamp": "2026-01-30 10:21:48",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102425492769",
+        "timestamp": "2026-01-30 10:24:25",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102425614383",
+        "timestamp": "2026-01-30 10:24:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102425688920",
+        "timestamp": "2026-01-30 10:24:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130102427530796",
+        "timestamp": "2026-01-30 10:24:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103208493485",
+        "timestamp": "2026-01-30 10:32:08",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103208653220",
+        "timestamp": "2026-01-30 10:32:08",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103208723318",
+        "timestamp": "2026-01-30 10:32:08",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103210177419",
+        "timestamp": "2026-01-30 10:32:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103232431357",
+        "timestamp": "2026-01-30 10:32:32",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103232530388",
+        "timestamp": "2026-01-30 10:32:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103232586624",
+        "timestamp": "2026-01-30 10:32:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103234530476",
+        "timestamp": "2026-01-30 10:32:34",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103309855425",
+        "timestamp": "2026-01-30 10:33:09",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103311344758",
+        "timestamp": "2026-01-30 10:33:11",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103314007957",
+        "timestamp": "2026-01-30 10:33:14",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103314143191",
+        "timestamp": "2026-01-30 10:33:14",
+        "user": "NHYK",
+        "action": "DELETE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM003 - trial_id: NN9499-8242, phase: 1",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM003",
+            "success": true,
+            "details": {
+                "trial_id": "NN9499-8242",
+                "phase": "1"
+            }
+        }
+    },
+    {
+        "id": "20260130103314297754",
+        "timestamp": "2026-01-30 10:33:14",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103353025109",
+        "timestamp": "2026-01-30 10:33:53",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103353154701",
+        "timestamp": "2026-01-30 10:33:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103353224148",
+        "timestamp": "2026-01-30 10:33:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103355062182",
+        "timestamp": "2026-01-30 10:33:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103432373470",
+        "timestamp": "2026-01-30 10:34:32",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103601796087",
+        "timestamp": "2026-01-30 10:36:01",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130103615983311",
+        "timestamp": "2026-01-30 10:36:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110531902401",
+        "timestamp": "2026-01-30 11:05:31",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110532044396",
+        "timestamp": "2026-01-30 11:05:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110532129851",
+        "timestamp": "2026-01-30 11:05:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110609038311",
+        "timestamp": "2026-01-30 11:06:09",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110653245232",
+        "timestamp": "2026-01-30 11:06:53",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110653402391",
+        "timestamp": "2026-01-30 11:06:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110653468747",
+        "timestamp": "2026-01-30 11:06:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110658457641",
+        "timestamp": "2026-01-30 11:06:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110711720758",
+        "timestamp": "2026-01-30 11:07:11",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110730386392",
+        "timestamp": "2026-01-30 11:07:30",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "All_Allocations",
+        "details": "Viewed all_allocations page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110747499510",
+        "timestamp": "2026-01-30 11:07:47",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110747648608",
+        "timestamp": "2026-01-30 11:07:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110747730149",
+        "timestamp": "2026-01-30 11:07:47",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110749140365",
+        "timestamp": "2026-01-30 11:07:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110749202702",
+        "timestamp": "2026-01-30 11:07:49",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110817908358",
+        "timestamp": "2026-01-30 11:08:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110817979833",
+        "timestamp": "2026-01-30 11:08:17",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Audit",
+        "details": "Viewed audit page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110821301435",
+        "timestamp": "2026-01-30 11:08:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110821372041",
+        "timestamp": "2026-01-30 11:08:21",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Uat",
+        "details": "Viewed uat page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110825332386",
+        "timestamp": "2026-01-30 11:08:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110825404406",
+        "timestamp": "2026-01-30 11:08:25",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Allocation",
+        "details": "Viewed allocation page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110826690414",
+        "timestamp": "2026-01-30 11:08:26",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110855701373",
+        "timestamp": "2026-01-30 11:08:55",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110855867306",
+        "timestamp": "2026-01-30 11:08:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130110855952138",
+        "timestamp": "2026-01-30 11:08:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133501804381",
+        "timestamp": "2026-01-30 13:35:01",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133501939241",
+        "timestamp": "2026-01-30 13:35:01",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133502007850",
+        "timestamp": "2026-01-30 13:35:02",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133509089553",
+        "timestamp": "2026-01-30 13:35:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133526130996",
+        "timestamp": "2026-01-30 13:35:26",
+        "user": "",
+        "action": "LOGIN_FAILED",
+        "module": "Authentication",
+        "details": "Failed login attempt for 'te1'",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133530123803",
+        "timestamp": "2026-01-30 13:35:30",
+        "user": "test1",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test1' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133530229004",
+        "timestamp": "2026-01-30 13:35:30",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133530287839",
+        "timestamp": "2026-01-30 13:35:30",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133532259792",
+        "timestamp": "2026-01-30 13:35:32",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133635972883",
+        "timestamp": "2026-01-30 13:36:35",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133636050269",
+        "timestamp": "2026-01-30 13:36:36",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM006 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 20.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM006",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 20.0
+            }
+        }
+    },
+    {
+        "id": "20260130133637187762",
+        "timestamp": "2026-01-30 13:36:37",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133653703847",
+        "timestamp": "2026-01-30 13:36:53",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133653779775",
+        "timestamp": "2026-01-30 13:36:53",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM007 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 90.91",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM007",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 90.91
+            }
+        }
+    },
+    {
+        "id": "20260130133654912863",
+        "timestamp": "2026-01-30 13:36:54",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133734491065",
+        "timestamp": "2026-01-30 13:37:34",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133734570481",
+        "timestamp": "2026-01-30 13:37:34",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM008 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM008",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260130133735702956",
+        "timestamp": "2026-01-30 13:37:35",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133805015911",
+        "timestamp": "2026-01-30 13:38:05",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133819766492",
+        "timestamp": "2026-01-30 13:38:19",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133819871118",
+        "timestamp": "2026-01-30 13:38:19",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM009 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 11.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM009",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 11.0
+            }
+        }
+    },
+    {
+        "id": "20260130133820989606",
+        "timestamp": "2026-01-30 13:38:20",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133852065664",
+        "timestamp": "2026-01-30 13:38:52",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133903543654",
+        "timestamp": "2026-01-30 13:39:03",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133903611271",
+        "timestamp": "2026-01-30 13:39:03",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM010 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 9.09",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM010",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 9.09
+            }
+        }
+    },
+    {
+        "id": "20260130133904749925",
+        "timestamp": "2026-01-30 13:39:04",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133921427262",
+        "timestamp": "2026-01-30 13:39:21",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133925090892",
+        "timestamp": "2026-01-30 13:39:25",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133925169555",
+        "timestamp": "2026-01-30 13:39:25",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM011 - trial_id: NN9980-9889, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM011",
+            "success": true,
+            "details": {
+                "trial_id": "NN9980-9889",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260130133926297892",
+        "timestamp": "2026-01-30 13:39:26",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133959485493",
+        "timestamp": "2026-01-30 13:39:59",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130133959661418",
+        "timestamp": "2026-01-30 13:39:59",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134010255962",
+        "timestamp": "2026-01-30 13:40:10",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134010376329",
+        "timestamp": "2026-01-30 13:40:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134010436823",
+        "timestamp": "2026-01-30 13:40:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134012139159",
+        "timestamp": "2026-01-30 13:40:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134018216057",
+        "timestamp": "2026-01-30 13:40:18",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134027386594",
+        "timestamp": "2026-01-30 13:40:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134037394269",
+        "timestamp": "2026-01-30 13:40:37",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134041129120",
+        "timestamp": "2026-01-30 13:40:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134043304116",
+        "timestamp": "2026-01-30 13:40:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134107745764",
+        "timestamp": "2026-01-30 13:41:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134114363498",
+        "timestamp": "2026-01-30 13:41:14",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134116300350",
+        "timestamp": "2026-01-30 13:41:16",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134118140764",
+        "timestamp": "2026-01-30 13:41:18",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134120422661",
+        "timestamp": "2026-01-30 13:41:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134122710462",
+        "timestamp": "2026-01-30 13:41:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134350543780",
+        "timestamp": "2026-01-30 13:43:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134456734109",
+        "timestamp": "2026-01-30 13:44:56",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134459858788",
+        "timestamp": "2026-01-30 13:44:59",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130134530248833",
+        "timestamp": "2026-01-30 13:45:30",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130141136587578",
+        "timestamp": "2026-01-30 14:11:36",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142132467366",
+        "timestamp": "2026-01-30 14:21:32",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142134578149",
+        "timestamp": "2026-01-30 14:21:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142135811552",
+        "timestamp": "2026-01-30 14:21:35",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142138851623",
+        "timestamp": "2026-01-30 14:21:38",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142816768660",
+        "timestamp": "2026-01-30 14:28:16",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142816938025",
+        "timestamp": "2026-01-30 14:28:16",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142817008137",
+        "timestamp": "2026-01-30 14:28:17",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142818474507",
+        "timestamp": "2026-01-30 14:28:18",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142824603841",
+        "timestamp": "2026-01-30 14:28:24",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142827585141",
+        "timestamp": "2026-01-30 14:28:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142836455296",
+        "timestamp": "2026-01-30 14:28:36",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142859436932",
+        "timestamp": "2026-01-30 14:28:59",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142902074168",
+        "timestamp": "2026-01-30 14:29:02",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142921350203",
+        "timestamp": "2026-01-30 14:29:21",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142925042425",
+        "timestamp": "2026-01-30 14:29:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142932261020",
+        "timestamp": "2026-01-30 14:29:32",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130142934279132",
+        "timestamp": "2026-01-30 14:29:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143005955352",
+        "timestamp": "2026-01-30 14:30:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143012454869",
+        "timestamp": "2026-01-30 14:30:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143013868935",
+        "timestamp": "2026-01-30 14:30:13",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143019433215",
+        "timestamp": "2026-01-30 14:30:19",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143024808303",
+        "timestamp": "2026-01-30 14:30:24",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143207922580",
+        "timestamp": "2026-01-30 14:32:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143224608353",
+        "timestamp": "2026-01-30 14:32:24",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143227591835",
+        "timestamp": "2026-01-30 14:32:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143231911369",
+        "timestamp": "2026-01-30 14:32:31",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143235099413",
+        "timestamp": "2026-01-30 14:32:35",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143236427940",
+        "timestamp": "2026-01-30 14:32:36",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143239614709",
+        "timestamp": "2026-01-30 14:32:39",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143242502228",
+        "timestamp": "2026-01-30 14:32:42",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143245318099",
+        "timestamp": "2026-01-30 14:32:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143247455551",
+        "timestamp": "2026-01-30 14:32:47",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143300478010",
+        "timestamp": "2026-01-30 14:33:00",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143327012107",
+        "timestamp": "2026-01-30 14:33:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143714566412",
+        "timestamp": "2026-01-30 14:37:14",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143714696716",
+        "timestamp": "2026-01-30 14:37:14",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143714754923",
+        "timestamp": "2026-01-30 14:37:14",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143716017519",
+        "timestamp": "2026-01-30 14:37:16",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130143722719949",
+        "timestamp": "2026-01-30 14:37:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144340408659",
+        "timestamp": "2026-01-30 14:43:40",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144340557030",
+        "timestamp": "2026-01-30 14:43:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144340635710",
+        "timestamp": "2026-01-30 14:43:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144342437275",
+        "timestamp": "2026-01-30 14:43:42",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144359673313",
+        "timestamp": "2026-01-30 14:43:59",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144958041117",
+        "timestamp": "2026-01-30 14:49:58",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144958179933",
+        "timestamp": "2026-01-30 14:49:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144958236050",
+        "timestamp": "2026-01-30 14:49:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130144959160696",
+        "timestamp": "2026-01-30 14:49:59",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145005336314",
+        "timestamp": "2026-01-30 14:50:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145656161738",
+        "timestamp": "2026-01-30 14:56:56",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145656304604",
+        "timestamp": "2026-01-30 14:56:56",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145656386079",
+        "timestamp": "2026-01-30 14:56:56",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145657672125",
+        "timestamp": "2026-01-30 14:56:57",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145704407482",
+        "timestamp": "2026-01-30 14:57:04",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145737001003",
+        "timestamp": "2026-01-30 14:57:37",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145740420124",
+        "timestamp": "2026-01-30 14:57:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145744327959",
+        "timestamp": "2026-01-30 14:57:44",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145747125458",
+        "timestamp": "2026-01-30 14:57:47",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145753600901",
+        "timestamp": "2026-01-30 14:57:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145755946663",
+        "timestamp": "2026-01-30 14:57:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145819184524",
+        "timestamp": "2026-01-30 14:58:19",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145820426897",
+        "timestamp": "2026-01-30 14:58:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145838978328",
+        "timestamp": "2026-01-30 14:58:38",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145915833587",
+        "timestamp": "2026-01-30 14:59:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145920049005",
+        "timestamp": "2026-01-30 14:59:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130145955034654",
+        "timestamp": "2026-01-30 14:59:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150001903124",
+        "timestamp": "2026-01-30 15:00:01",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150009104724",
+        "timestamp": "2026-01-30 15:00:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150012754750",
+        "timestamp": "2026-01-30 15:00:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150034069731",
+        "timestamp": "2026-01-30 15:00:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150123286622",
+        "timestamp": "2026-01-30 15:01:23",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150125101997",
+        "timestamp": "2026-01-30 15:01:25",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260130150126046926",
+        "timestamp": "2026-01-30 15:01:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202113953614216",
+        "timestamp": "2026-02-02 11:39:53",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202113953710049",
+        "timestamp": "2026-02-02 11:39:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202113953760825",
+        "timestamp": "2026-02-02 11:39:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202113955085041",
+        "timestamp": "2026-02-02 11:39:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202113958287658",
+        "timestamp": "2026-02-02 11:39:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114022941031",
+        "timestamp": "2026-02-02 11:40:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114111345828",
+        "timestamp": "2026-02-02 11:41:11",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114120814753",
+        "timestamp": "2026-02-02 11:41:20",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114244341130",
+        "timestamp": "2026-02-02 11:42:44",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114303155058",
+        "timestamp": "2026-02-02 11:43:03",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114311211520",
+        "timestamp": "2026-02-02 11:43:11",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114315545279",
+        "timestamp": "2026-02-02 11:43:15",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114359107136",
+        "timestamp": "2026-02-02 11:43:59",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114359267769",
+        "timestamp": "2026-02-02 11:43:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114359405744",
+        "timestamp": "2026-02-02 11:43:59",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114401086017",
+        "timestamp": "2026-02-02 11:44:01",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114704774409",
+        "timestamp": "2026-02-02 11:47:04",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202114711232438",
+        "timestamp": "2026-02-02 11:47:11",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115507717684",
+        "timestamp": "2026-02-02 11:55:07",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115507856957",
+        "timestamp": "2026-02-02 11:55:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115507942661",
+        "timestamp": "2026-02-02 11:55:07",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115508950612",
+        "timestamp": "2026-02-02 11:55:08",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115603010853",
+        "timestamp": "2026-02-02 11:56:03",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115603119905",
+        "timestamp": "2026-02-02 11:56:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115603174593",
+        "timestamp": "2026-02-02 11:56:03",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202115604918062",
+        "timestamp": "2026-02-02 11:56:04",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120727522313",
+        "timestamp": "2026-02-02 12:07:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120730141904",
+        "timestamp": "2026-02-02 12:07:30",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120732297529",
+        "timestamp": "2026-02-02 12:07:32",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120813101875",
+        "timestamp": "2026-02-02 12:08:13",
+        "user": "test1",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test1' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120813225479",
+        "timestamp": "2026-02-02 12:08:13",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120813303733",
+        "timestamp": "2026-02-02 12:08:13",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120814981968",
+        "timestamp": "2026-02-02 12:08:14",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120937501914",
+        "timestamp": "2026-02-02 12:09:37",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202120937647985",
+        "timestamp": "2026-02-02 12:09:37",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM012 - trial_id: NN8888-8889, phase: Phase 2, defect_density: 24.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM012",
+            "success": true,
+            "details": {
+                "trial_id": "NN8888-8889",
+                "phase": "Phase 2",
+                "defect_density": 24.0
+            }
+        }
+    },
+    {
+        "id": "20260202120938845277",
+        "timestamp": "2026-02-02 12:09:38",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121011633295",
+        "timestamp": "2026-02-02 12:10:11",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121011756717",
+        "timestamp": "2026-02-02 12:10:11",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM013 - trial_id: NN8888-8889, phase: Phase 2, defect_density: 28.57",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM013",
+            "success": true,
+            "details": {
+                "trial_id": "NN8888-8889",
+                "phase": "Phase 2",
+                "defect_density": 28.57
+            }
+        }
+    },
+    {
+        "id": "20260202121012939844",
+        "timestamp": "2026-02-02 12:10:12",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121027751983",
+        "timestamp": "2026-02-02 12:10:27",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121033816699",
+        "timestamp": "2026-02-02 12:10:33",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121033937976",
+        "timestamp": "2026-02-02 12:10:33",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM014 - trial_id: NN8888-8889, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM014",
+            "success": true,
+            "details": {
+                "trial_id": "NN8888-8889",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260202121035108202",
+        "timestamp": "2026-02-02 12:10:35",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121112929787",
+        "timestamp": "2026-02-02 12:11:12",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121149237659",
+        "timestamp": "2026-02-02 12:11:49",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121149360407",
+        "timestamp": "2026-02-02 12:11:49",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM015 - trial_id: NN8888-8889, phase: Phase 2, defect_density: 0.8",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM015",
+            "success": true,
+            "details": {
+                "trial_id": "NN8888-8889",
+                "phase": "Phase 2",
+                "defect_density": 0.8
+            }
+        }
+    },
+    {
+        "id": "20260202121150588028",
+        "timestamp": "2026-02-02 12:11:50",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121159774376",
+        "timestamp": "2026-02-02 12:11:59",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121159904811",
+        "timestamp": "2026-02-02 12:11:59",
+        "user": "test1",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM016 - trial_id: NN8888-8889, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM016",
+            "success": true,
+            "details": {
+                "trial_id": "NN8888-8889",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260202121201109326",
+        "timestamp": "2026-02-02 12:12:01",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121204413570",
+        "timestamp": "2026-02-02 12:12:04",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121333511113",
+        "timestamp": "2026-02-02 12:13:33",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121333642187",
+        "timestamp": "2026-02-02 12:13:33",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121333736225",
+        "timestamp": "2026-02-02 12:13:33",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121335175084",
+        "timestamp": "2026-02-02 12:13:35",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121337318552",
+        "timestamp": "2026-02-02 12:13:37",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121341348181",
+        "timestamp": "2026-02-02 12:13:41",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121416818342",
+        "timestamp": "2026-02-02 12:14:16",
+        "user": "test1",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test1' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121416956433",
+        "timestamp": "2026-02-02 12:14:16",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121417044689",
+        "timestamp": "2026-02-02 12:14:17",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121419949492",
+        "timestamp": "2026-02-02 12:14:19",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121622123066",
+        "timestamp": "2026-02-02 12:16:22",
+        "user": "test1",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121648262663",
+        "timestamp": "2026-02-02 12:16:48",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121648374118",
+        "timestamp": "2026-02-02 12:16:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121648456620",
+        "timestamp": "2026-02-02 12:16:48",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121650220242",
+        "timestamp": "2026-02-02 12:16:50",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121653302749",
+        "timestamp": "2026-02-02 12:16:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121702059749",
+        "timestamp": "2026-02-02 12:17:02",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121705056270",
+        "timestamp": "2026-02-02 12:17:05",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202121709428208",
+        "timestamp": "2026-02-02 12:17:09",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202122412454394",
+        "timestamp": "2026-02-02 12:24:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202122526203500",
+        "timestamp": "2026-02-02 12:25:26",
+        "user": "NHYK",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'NHYK' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260202122526284699",
+        "timestamp": "2026-02-02 12:25:26",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202122526328848",
+        "timestamp": "2026-02-02 12:25:26",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260202122527768049",
+        "timestamp": "2026-02-02 12:25:27",
+        "user": "NHYK",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125223748647",
+        "timestamp": "2026-02-06 12:52:23",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125223871647",
+        "timestamp": "2026-02-06 12:52:23",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125223935604",
+        "timestamp": "2026-02-06 12:52:23",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125225074480",
+        "timestamp": "2026-02-06 12:52:25",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125229449822",
+        "timestamp": "2026-02-06 12:52:29",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125229560731",
+        "timestamp": "2026-02-06 12:52:29",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125232187099",
+        "timestamp": "2026-02-06 12:52:32",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206125232306253",
+        "timestamp": "2026-02-06 12:52:32",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134442454033",
+        "timestamp": "2026-02-06 13:44:42",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134442600439",
+        "timestamp": "2026-02-06 13:44:42",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134442649160",
+        "timestamp": "2026-02-06 13:44:42",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134446526447",
+        "timestamp": "2026-02-06 13:44:46",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134448789925",
+        "timestamp": "2026-02-06 13:44:48",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134448892695",
+        "timestamp": "2026-02-06 13:44:48",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134458040502",
+        "timestamp": "2026-02-06 13:44:58",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134458158078",
+        "timestamp": "2026-02-06 13:44:58",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134459620756",
+        "timestamp": "2026-02-06 13:44:59",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134459734374",
+        "timestamp": "2026-02-06 13:44:59",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134509326013",
+        "timestamp": "2026-02-06 13:45:09",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134509430330",
+        "timestamp": "2026-02-06 13:45:09",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134509503166",
+        "timestamp": "2026-02-06 13:45:09",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134511098445",
+        "timestamp": "2026-02-06 13:45:11",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134516009981",
+        "timestamp": "2026-02-06 13:45:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134516108643",
+        "timestamp": "2026-02-06 13:45:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134641312613",
+        "timestamp": "2026-02-06 13:46:41",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134702756953",
+        "timestamp": "2026-02-06 13:47:02",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134702886359",
+        "timestamp": "2026-02-06 13:47:02",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134750834515",
+        "timestamp": "2026-02-06 13:47:50",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134750945954",
+        "timestamp": "2026-02-06 13:47:50",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134900499183",
+        "timestamp": "2026-02-06 13:49:00",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134900620228",
+        "timestamp": "2026-02-06 13:49:00",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134926410762",
+        "timestamp": "2026-02-06 13:49:26",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206134926547803",
+        "timestamp": "2026-02-06 13:49:26",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM017 - trial_id: NN8899-0077, phase: Phase 3, defect_density: 33.33",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM017",
+            "success": true,
+            "details": {
+                "trial_id": "NN8899-0077",
+                "phase": "Phase 3",
+                "defect_density": 33.33
+            }
+        }
+    },
+    {
+        "id": "20260206134926631597",
+        "timestamp": "2026-02-06 13:49:26",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM018 - trial_id: NN8899-0077, phase: Phase 3, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM018",
+            "success": true,
+            "details": {
+                "trial_id": "NN8899-0077",
+                "phase": "Phase 3",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260206134928734103",
+        "timestamp": "2026-02-06 13:49:28",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135010175772",
+        "timestamp": "2026-02-06 13:50:10",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135010290405",
+        "timestamp": "2026-02-06 13:50:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135010356079",
+        "timestamp": "2026-02-06 13:50:10",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135012691585",
+        "timestamp": "2026-02-06 13:50:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135043555730",
+        "timestamp": "2026-02-06 13:50:43",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135055767401",
+        "timestamp": "2026-02-06 13:50:55",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135222203825",
+        "timestamp": "2026-02-06 13:52:22",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135226944468",
+        "timestamp": "2026-02-06 13:52:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135231296018",
+        "timestamp": "2026-02-06 13:52:31",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135233824694",
+        "timestamp": "2026-02-06 13:52:33",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135302935136",
+        "timestamp": "2026-02-06 13:53:02",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135303056415",
+        "timestamp": "2026-02-06 13:53:03",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135303122964",
+        "timestamp": "2026-02-06 13:53:03",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135304561089",
+        "timestamp": "2026-02-06 13:53:04",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135316351518",
+        "timestamp": "2026-02-06 13:53:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135316500653",
+        "timestamp": "2026-02-06 13:53:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135321250048",
+        "timestamp": "2026-02-06 13:53:21",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135321361636",
+        "timestamp": "2026-02-06 13:53:21",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135349255407",
+        "timestamp": "2026-02-06 13:53:49",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135349413938",
+        "timestamp": "2026-02-06 13:53:49",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135354897270",
+        "timestamp": "2026-02-06 13:53:54",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206135355087520",
+        "timestamp": "2026-02-06 13:53:55",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206140216209138",
+        "timestamp": "2026-02-06 14:02:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206140216328285",
+        "timestamp": "2026-02-06 14:02:16",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206140226367522",
+        "timestamp": "2026-02-06 14:02:26",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206140226504000",
+        "timestamp": "2026-02-06 14:02:26",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206140238635680",
+        "timestamp": "2026-02-06 14:02:38",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141054157872",
+        "timestamp": "2026-02-06 14:10:54",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141054279512",
+        "timestamp": "2026-02-06 14:10:54",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141400286948",
+        "timestamp": "2026-02-06 14:14:00",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141400426977",
+        "timestamp": "2026-02-06 14:14:00",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141521893553",
+        "timestamp": "2026-02-06 14:15:21",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141522041860",
+        "timestamp": "2026-02-06 14:15:22",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141605868754",
+        "timestamp": "2026-02-06 14:16:05",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141606011580",
+        "timestamp": "2026-02-06 14:16:06",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141617580576",
+        "timestamp": "2026-02-06 14:16:17",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141617729164",
+        "timestamp": "2026-02-06 14:16:17",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141720862135",
+        "timestamp": "2026-02-06 14:17:20",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141720995430",
+        "timestamp": "2026-02-06 14:17:20",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141750537766",
+        "timestamp": "2026-02-06 14:17:50",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141750678425",
+        "timestamp": "2026-02-06 14:17:50",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141808420194",
+        "timestamp": "2026-02-06 14:18:08",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141808562364",
+        "timestamp": "2026-02-06 14:18:08",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141810328260",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141810476929",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM019 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 11.11",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM019",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 11.11
+            }
+        }
+    },
+    {
+        "id": "20260206141810536581",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM020 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 40.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM020",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 40.0
+            }
+        }
+    },
+    {
+        "id": "20260206141810616726",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM021 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM021",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260206141810716515",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM022 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 11.11",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM022",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 11.11
+            }
+        }
+    },
+    {
+        "id": "20260206141810801917",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM023 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 10.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM023",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 10.0
+            }
+        }
+    },
+    {
+        "id": "20260206141810898291",
+        "timestamp": "2026-02-06 14:18:10",
+        "user": "test2",
+        "action": "CREATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM024 - trial_id: NN8640-4467, phase: Phase 2, defect_density: 0.0",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM024",
+            "success": true,
+            "details": {
+                "trial_id": "NN8640-4467",
+                "phase": "Phase 2",
+                "defect_density": 0.0
+            }
+        }
+    },
+    {
+        "id": "20260206141813004647",
+        "timestamp": "2026-02-06 14:18:13",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141834067464",
+        "timestamp": "2026-02-06 14:18:34",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141834172308",
+        "timestamp": "2026-02-06 14:18:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141834240419",
+        "timestamp": "2026-02-06 14:18:34",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141836618241",
+        "timestamp": "2026-02-06 14:18:36",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141840307119",
+        "timestamp": "2026-02-06 14:18:40",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141845118598",
+        "timestamp": "2026-02-06 14:18:45",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141854467394",
+        "timestamp": "2026-02-06 14:18:54",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141857396535",
+        "timestamp": "2026-02-06 14:18:57",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141927564954",
+        "timestamp": "2026-02-06 14:19:27",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141928941500",
+        "timestamp": "2026-02-06 14:19:28",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141931523427",
+        "timestamp": "2026-02-06 14:19:31",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141937143615",
+        "timestamp": "2026-02-06 14:19:37",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206141939456401",
+        "timestamp": "2026-02-06 14:19:39",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142028609795",
+        "timestamp": "2026-02-06 14:20:28",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142121351012",
+        "timestamp": "2026-02-06 14:21:21",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142128450284",
+        "timestamp": "2026-02-06 14:21:28",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142146823402",
+        "timestamp": "2026-02-06 14:21:46",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142152032316",
+        "timestamp": "2026-02-06 14:21:52",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142153533545",
+        "timestamp": "2026-02-06 14:21:53",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142156245767",
+        "timestamp": "2026-02-06 14:21:56",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142158493803",
+        "timestamp": "2026-02-06 14:21:58",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142201281766",
+        "timestamp": "2026-02-06 14:22:01",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142209653881",
+        "timestamp": "2026-02-06 14:22:09",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142209872761",
+        "timestamp": "2026-02-06 14:22:09",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142210015559",
+        "timestamp": "2026-02-06 14:22:10",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142212422580",
+        "timestamp": "2026-02-06 14:22:12",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142229265323",
+        "timestamp": "2026-02-06 14:22:29",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142238024730",
+        "timestamp": "2026-02-06 14:22:38",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142239079243",
+        "timestamp": "2026-02-06 14:22:39",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142239241376",
+        "timestamp": "2026-02-06 14:22:39",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142245015064",
+        "timestamp": "2026-02-06 14:22:45",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142245141155",
+        "timestamp": "2026-02-06 14:22:45",
+        "user": "test2",
+        "action": "UPDATE",
+        "module": "Quality Matrix",
+        "details": "Quality Record QM024 - updated_fields: ['trial_id', 'phase', 'no_of_uat_plans', 'no_of_rounds', 'type_of_requirement', 'current_round', 'total_requirements', 'total_failures', 'spec_issue', 'mock_crf_issue', 'programming_issue', 'scripting_issue', 'documentation_issues', 'timeline_adherence', 'system_deployment_delays'], old_values: {'trial_id': 'NN8640-4467', 'phase': 'Phase 2', 'no_of_uat_plans': '1', 'no_of_rounds': 5, 'type_of_requirement': 'Forms', 'current_round': 5, 'total_requirements': 5, 'total_failures': 0, 'spec_issue': 0, 'mock_crf_issue': 0, 'programming_issue': 0, 'scripting_issue': 0, 'documentation_issues': '', 'timeline_adherence': '', 'system_deployment_delays': ''}, new_values: {'trial_id': 'NN8640-4467', 'phase': 'Phase 2', 'no_of_uat_plans': '1', 'no_of_rounds': 5, 'type_of_requirement': 'Editchecks', 'current_round': 5, 'total_requirements': 5, 'total_failures': 0, 'spec_issue': 0, 'mock_crf_issue': 0, 'programming_issue': 0, 'scripting_issue': 0, 'documentation_issues': '', 'timeline_adherence': '', 'system_deployment_delays': ''}",
+        "metadata": {
+            "category": "quality_matrix",
+            "entity_type": "Quality Record",
+            "entity_id": "QM024",
+            "success": true,
+            "details": {
+                "updated_fields": [
+                    "trial_id",
+                    "phase",
+                    "no_of_uat_plans",
+                    "no_of_rounds",
+                    "type_of_requirement",
+                    "current_round",
+                    "total_requirements",
+                    "total_failures",
+                    "spec_issue",
+                    "mock_crf_issue",
+                    "programming_issue",
+                    "scripting_issue",
+                    "documentation_issues",
+                    "timeline_adherence",
+                    "system_deployment_delays"
+                ],
+                "old_values": {
+                    "trial_id": "NN8640-4467",
+                    "phase": "Phase 2",
+                    "no_of_uat_plans": "1",
+                    "no_of_rounds": 5,
+                    "type_of_requirement": "Forms",
+                    "current_round": 5,
+                    "total_requirements": 5,
+                    "total_failures": 0,
+                    "spec_issue": 0,
+                    "mock_crf_issue": 0,
+                    "programming_issue": 0,
+                    "scripting_issue": 0,
+                    "documentation_issues": "",
+                    "timeline_adherence": "",
+                    "system_deployment_delays": ""
+                },
+                "new_values": {
+                    "trial_id": "NN8640-4467",
+                    "phase": "Phase 2",
+                    "no_of_uat_plans": "1",
+                    "no_of_rounds": 5,
+                    "type_of_requirement": "Editchecks",
+                    "current_round": 5,
+                    "total_requirements": 5,
+                    "total_failures": 0,
+                    "spec_issue": 0,
+                    "mock_crf_issue": 0,
+                    "programming_issue": 0,
+                    "scripting_issue": 0,
+                    "documentation_issues": "",
+                    "timeline_adherence": "",
+                    "system_deployment_delays": ""
+                }
+            }
+        }
+    },
+    {
+        "id": "20260206142245263646",
+        "timestamp": "2026-02-06 14:22:45",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142312110680",
+        "timestamp": "2026-02-06 14:23:12",
+        "user": "GEGE",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'GEGE' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142312233343",
+        "timestamp": "2026-02-06 14:23:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142312301905",
+        "timestamp": "2026-02-06 14:23:12",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142313626414",
+        "timestamp": "2026-02-06 14:23:13",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142317720205",
+        "timestamp": "2026-02-06 14:23:17",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142319367929",
+        "timestamp": "2026-02-06 14:23:19",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206142426290762",
+        "timestamp": "2026-02-06 14:24:26",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143528715291",
+        "timestamp": "2026-02-06 14:35:28",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143533963798",
+        "timestamp": "2026-02-06 14:35:33",
+        "user": "GEGE",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143543232376",
+        "timestamp": "2026-02-06 14:35:43",
+        "user": "test2",
+        "action": "LOGIN",
+        "module": "Authentication",
+        "details": "User 'test2' logged in successfully",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143543389504",
+        "timestamp": "2026-02-06 14:35:43",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143543482281",
+        "timestamp": "2026-02-06 14:35:43",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Home",
+        "details": "Viewed home page",
+        "metadata": {}
+    },
+    {
+        "id": "20260206143556063284",
+        "timestamp": "2026-02-06 14:35:56",
+        "user": "test2",
+        "action": "VIEW",
+        "module": "Quality",
+        "details": "Viewed quality page",
+        "metadata": {}
     }
 ]
