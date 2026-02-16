@@ -6,7 +6,7 @@ Handles all navigation logic
 import streamlit as st
 from utils.auth import (
     get_current_user, get_current_role, logout_user, get_role_emoji,
-    is_superuser, is_manager, is_admin
+    is_superuser, is_manager, is_admin, is_cdp
 )
 from utils.database import load_pending_users, load_password_reset_requests
 from config import ROLES
@@ -31,6 +31,8 @@ def render_sidebar():
         # Role-specific menus
         if is_superuser():
             render_superuser_menu()
+        elif is_cdp():  # ✅ NEW: CDP Menu
+            render_cdp_menu()
         elif is_manager():
             render_manager_menu()
         elif is_admin():
@@ -43,9 +45,24 @@ def render_sidebar():
             logout_user()
             st.rerun()
 
+# components/sidebar.py
+# UPDATE render_main_navigation function
+
 def render_main_navigation(role: str):
     """Render main navigation buttons"""
     
+    # ✅ CDP ROLE: ONLY ACCESS TO CHANGE REQUEST TRACKER
+    if role == 'cdp':
+        st.info("📊 **CDP Role:** Change Request Tracker access only")
+        
+        # Only show Change Request Tracker for CDP
+        if st.button("🔄 Change Request Tracker", use_container_width=True, key="nav_change_request"):
+            st.session_state.current_page = "change_request"
+            st.rerun()
+        
+        return  # Stop here - CDP cannot see other navigation
+    
+    # FOR OTHER ROLES - Show full navigation
     # Home
     if st.button("🏠 Home", use_container_width=True, key="nav_home"):
         st.session_state.current_page = "home"
@@ -62,13 +79,19 @@ def render_main_navigation(role: str):
         st.session_state.current_page = "audit"
         st.rerun()
     
+    # ✅ Change Request Tracker (Available for Manager and Superuser, NOT regular users)
+    if role in ['manager', 'superuser']:
+        if st.button("🔄 Change Request Tracker", use_container_width=True, key="nav_change_request"):
+            st.session_state.current_page = "change_request"
+            st.rerun()
+    
     # UAT Status (hide for managers - they access via their menu)
     if role != "manager":
         if st.button("✅ UAT Status", use_container_width=True, key="nav_uat"):
             st.session_state.current_page = "uat"
             st.rerun()
     
-    # ✅ NEW: Trial Quality Matrix (Available for Users and Managers)
+    # Trial Quality Matrix (Available for Users and Managers)
     if role in ["user", "manager"]:
         if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality"):
             st.session_state.current_page = "quality"
@@ -103,10 +126,30 @@ def render_superuser_menu():
         st.session_state.current_page = "email_settings"
         st.rerun()
     
-    # ✅ NEW: Quality Matrix for Superuser (Full Access)
+    # ✅ Trial Quality Matrix for Superuser (Full Access)
     if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality_super"):
         st.session_state.current_page = "quality"
         st.rerun()
+
+
+def render_cdp_menu():
+    """Render CDP-specific menu"""
+    st.markdown("---")
+    st.subheader("📊 CDP Menu")
+    
+    st.info("ℹ️ **CDP Access:**")
+    st.caption("✅ Change Request Tracker")
+    st.caption("❌ Other modules restricted")
+    
+    # Help section
+    with st.expander("❓ Need Help?"):
+        st.write("As a CDP user, you have access to:")
+        st.write("- Create change requests")
+        st.write("- Edit your own entries")
+        st.write("- Delete your own entries")
+        st.write("- View all change requests")
+        st.write("")
+        st.write("📧 Contact superuser for additional access.")
 
 def render_manager_menu():
     """Render manager-specific menu"""
@@ -151,7 +194,7 @@ def render_admin_menu():
         st.session_state.current_page = "email_settings"
         st.rerun()
     
-    # ✅ NEW: Quality Matrix for Admin (Full Access)
+    # ✅ Trial Quality Matrix for Admin (Full Access)
     if st.button("🎯 Trial Quality Matrix", use_container_width=True, key="nav_quality_admin"):
         st.session_state.current_page = "quality"
         st.rerun()

@@ -55,6 +55,20 @@ def can_view_all_data() -> bool:
     """Check if user can view all data"""
     return get_current_role() in ['superuser', 'admin', 'manager']
 
+def is_cdp() -> bool:
+    """Check if current user is CDP"""
+    return get_current_role() == 'cdp'
+
+def can_manage_change_requests() -> bool:
+    """Check if user can manage change requests"""
+    return get_current_role() in ['superuser', 'cdp', 'manager']
+
+
+def can_access_change_request_tracker() -> bool:
+    """Check if user can access Change Request Tracker"""
+    role = get_current_role()
+    return role in ['superuser', 'cdp', 'manager']
+
 # ✅ MODIFIED: Added is_audit_reviewer parameter
 def login_user(username: str, role: str, is_audit_reviewer: bool = False):
     """Log in user and set session state"""

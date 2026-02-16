@@ -1,4 +1,4 @@
-# pages/home.py
+# ui/home.py
 """
 Home page - Landing page after login
 """
@@ -19,6 +19,7 @@ def render_home_page():
     # Role-specific greeting
     role_display = {
         "superuser": "👑 Super User",
+        "cdp": "📊 CDP",  # ✅ ADDED CDP
         "manager": "👨‍💼 Manager",
         "admin": "🔧 Admin",
         "user": "👤 Test Engineer"
@@ -44,7 +45,72 @@ def render_home_page():
     
     st.markdown("---")
     
-    # Quick access cards - navy blue themed
+    # ✅ CDP ROLE: SHOW ONLY CHANGE REQUEST TRACKER
+    if role == 'cdp':
+        render_cdp_home()
+    else:
+        # Regular users: Show normal Quick Access
+        render_quick_access(role)
+    
+    st.markdown("---")
+    
+    # Recent activity summary (optional) - NOT FOR CDP
+    if role in ['superuser', 'admin', 'manager']:
+        render_admin_summary()
+
+
+def render_cdp_home():
+    """Render CDP-specific home page with only Change Request Tracker access"""
+    st.subheader("📊 CDP Access")
+    st.info("⚠️ **CDP Role:** You have access only to the Change Request Tracker module.")
+    
+    st.markdown("<br>", unsafe_allow_html=True)
+    
+    # Single centered card for Change Request Tracker
+    col1, col2, col3 = st.columns([1, 2, 1])
+    
+    with col2:
+        st.markdown("""
+        <div style='text-align:center; padding:30px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius:16px; box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);'>
+            <h2 style='color:#FFFFFF; margin:0; font-size:40px;'>🔄</h2>
+            <h3 style='color:#FFFFFF; margin-top:12px; font-weight:600;'>Change Request Tracker</h3>
+            <p style='color:#E6E6FA; margin-top:8px; font-size:14px;'>Create, edit, and manage change requests</p>
+        </div>
+        """, unsafe_allow_html=True)
+        
+        st.markdown("<br>", unsafe_allow_html=True)
+        
+        if st.button("🚀 Go to Change Request Tracker", key="cdp_home_cr_btn", use_container_width=True, type="primary"):
+            st.session_state.current_page = "change_request"
+            st.rerun()
+    
+    st.markdown("<br><br>", unsafe_allow_html=True)
+    
+    # CDP Help section
+    with st.expander("❓ Need Help?"):
+        st.markdown("""
+        ### CDP Role Capabilities:
+        
+        ✅ **What you can do:**
+        - Create new change requests
+        - Edit your own change requests
+        - Delete your own change requests
+        - View all change requests in the system
+        - Filter and search change requests
+        
+        ❌ **What you cannot access:**
+        - Allocation module
+        - UAT Status module
+        - Audit Documents module
+        - Quality Matrix module
+        - User management
+        
+        📧 **Need more access?** Contact your system administrator or superuser.
+        """)
+
+
+def render_quick_access(role):
+    """Render quick access cards for regular users"""
     st.subheader("📋 Quick Access")
     st.markdown("<br>", unsafe_allow_html=True)
     
@@ -88,12 +154,7 @@ def render_home_page():
             st.session_state.current_page = "uat"
             st.rerun()
         st.caption("Check UAT testing status")
-    
-    st.markdown("---")
-    
-    # Recent activity summary (optional)
-    if role in ['superuser', 'admin', 'manager']:
-        render_admin_summary()
+
 
 def render_admin_summary():
     """Render summary for admin roles"""

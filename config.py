@@ -22,6 +22,7 @@ EMAIL_CONFIG_FILE = os.path.join(DATA_DIR, "email_config.json")
 PENDING_USERS_FILE = os.path.join(DATA_DIR, "pending_users.json")
 PASSWORD_RESET_FILE = os.path.join(DATA_DIR, "password_reset_requests.json")
 TRAIL_DOCUMENTS_FILE = os.path.join(DATA_DIR, "trail_documents.json")
+CHANGE_REQUESTS_FILE = os.path.join(DATA_DIR, "change_requests.json")
 
 # ==================== APP SETTINGS ====================
 APP_TITLE = "Test Engineer Portal"
@@ -37,11 +38,40 @@ DEFAULT_SUPERUSER = {
 }
 
 # ==================== ROLES ====================
+# config.py
+# UPDATE ROLES section
+
 ROLES = {
-    "superuser": {"name": "Super User", "emoji": "👑", "level": 4},
-    "manager": {"name": "Manager", "emoji": "👨‍💼", "level": 3},
-    "admin": {"name": "Admin", "emoji": "🔧", "level": 2},
-    "user": {"name": "User", "emoji": "👤", "level": 1}
+    "superuser": {
+        "name": "Super User", 
+        "emoji": "👑", 
+        "level": 5,
+        "permissions": ["all"]
+    },
+    "cdp": {
+        "name": "CDP", 
+        "emoji": "📊", 
+        "level": 4,
+        "permissions": ["change_request_full"]  # ✅ Only change request access
+    },
+    "manager": {
+        "name": "Manager", 
+        "emoji": "👨‍💼", 
+        "level": 3,
+        "permissions": ["view_all", "change_request_view", "download"]
+    },
+    "admin": {
+        "name": "Admin", 
+        "emoji": "🔧", 
+        "level": 2,
+        "permissions": ["view_users", "view_allocations", "view_uat", "email_settings"]
+    },
+    "user": {
+        "name": "User", 
+        "emoji": "👤", 
+        "level": 1,
+        "permissions": ["create_allocation", "view_own_allocation", "create_uat", "view_own_uat"]
+    }
 }
 
 # ==================== UAT CONFIGURATION ====================
@@ -202,3 +232,66 @@ DATE_FORMAT = "%Y-%m-%d"
 DATETIME_FORMAT = "%Y-%m-%d %H:%M:%S"
 DISPLAY_DATE_FORMAT = "%d %b %Y"
 DISPLAY_DATETIME_FORMAT = "%d %b %Y %I:%M %p"
+
+# ==================== CHANGE REQUEST CONFIGURATION ==================== (ADD NEW SECTION)
+CR_CATEGORIES = [
+    "Rule Change",
+    "Form Change"
+]
+
+CR_VERSION_OPTIONS = [
+    "Version",
+    "Versionless"
+]
+
+CR_IMPACT_OPTIONS = [
+    "Yes",
+    "No",
+    "N/A"
+]
+
+# config.py - ADD THESE SECTIONS AT THE END
+
+# ==================== BACKUP CONFIGURATION ====================
+BACKUP_DIR = os.path.join(BASE_DIR, "backups")
+os.makedirs(BACKUP_DIR, exist_ok=True)
+
+BACKUP_CONFIG = {
+    "enabled": True,
+    "frequency": "weekly",           # daily, weekly, monthly
+    "day_of_week": 6,               # 0=Monday, 6=Sunday
+    "time": "00:00",                # HH:MM format (24-hour)
+    "retention_count": 4,            # Keep last 4 backups
+    "auto_cleanup": True,            # Auto-delete old backups
+    "include_files": [
+        "users.json",
+        "allocations.json",
+        "uat_records.json",
+        "audit_logs.json",
+        "trail_documents.json",
+        "change_requests.json",
+        "quality_records.json",
+        "pending_users.json",
+        "password_reset_requests.json",
+        "email_config.json"
+    ]
+}
+
+# ==================== DATA PROTECTION ====================
+DATA_PROTECTION = {
+    "enabled": True,
+    "protection_level": "write_through_app_only",  # Blocks direct file editing
+    "verify_integrity": True,        # Check data integrity on load
+    "log_all_access": True,          # Log all data access
+    "checksum_validation": True,     # Validate data checksums
+    "superuser_only_unlock": True,   # Only superuser can unlock
+    "backup_before_critical": True,  # Backup before critical operations
+    "lock_status_file": os.path.join(DATA_DIR, ".protection_status.json")
+}
+
+# Protection metadata file
+PROTECTION_STATUS_FILE = os.path.join(DATA_DIR, ".protection_status.json")
+
+# Backup file naming
+BACKUP_DATE_FORMAT = "%Y-%m-%d_%H-%M-%S"
+BACKUP_INFO_FILE = "backup_info.json"

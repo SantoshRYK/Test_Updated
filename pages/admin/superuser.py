@@ -62,7 +62,9 @@ def render_superuser_dashboard():
     elif menu == "Delete User":
         render_delete_user()
 
-# ✅ MODIFIED: Enhanced to show audit reviewer requests
+# pages/admin/superuser.py
+# UPDATE render_pending_approvals() function
+
 def render_pending_approvals():
     """Render pending user approvals"""
     st.subheader("⏳ Pending User Approvals")
@@ -73,34 +75,55 @@ def render_pending_approvals():
         st.info(f"📋 {len(pending_users)} user(s) waiting for approval")
         
         for idx, pending in enumerate(pending_users):
-            # ✅ NEW: Check if user also requested audit reviewer access
+            # Check if user also requested audit reviewer access
             has_audit_request = pending.get('audit_reviewer_requested', False)
-            title_suffix = " 🔍 (+ Audit Reviewer)" if has_audit_request else ""
             
-            with st.expander(f"👤 {pending['username']}{title_suffix} - Requested: {pending['requested_at']}"):
+            # ✅ NEW: Get requested role and show appropriate emoji
+            requested_role = pending.get('requested_role', 'user')
+            role_emoji = "📊" if requested_role == "cdp" else "👤"
+            
+            audit_suffix = " 🔍" if has_audit_request else ""
+            title_suffix = f"{audit_suffix} ({requested_role.upper()})"
+            
+            with st.expander(f"{role_emoji} {pending['username']}{title_suffix} - Requested: {pending['requested_at']}"):
                 col1, col2 = st.columns(2)
                 
                 with col1:
                     st.write(f"**Username:** {pending['username']}")
                     st.write(f"**Email:** {pending['email']}")
-                    st.write(f"**Requested Role:** {pending['requested_role']}")
+                    st.write(f"**Requested Role:** {role_emoji} {requested_role.upper()}")
                     st.write(f"**Status:** {pending['status']}")
+                    
+                    # ✅ NEW: Show CDP role warning
+                    if requested_role == "cdp":
+                        st.warning("⚠️ **CDP Role:** This user will ONLY have access to Change Request Tracker")
                 
                 with col2:
                     st.write(f"**Requested At:** {pending['requested_at']}")
                     
-                    # ✅ NEW: Show audit reviewer request info
+                    # Show audit reviewer request info
                     if has_audit_request:
                         st.warning("🔍 **Also Requested Audit Reviewer Access**")
                         st.write("**Justification:**")
                         st.info(pending.get('audit_reviewer_justification', 'No justification provided'))
                     
-                    # Approve with role selection
-                    approve_as_role = st.selectbox(
-                        "Approve as Role:",
-                        ["user", "admin", "manager"],
-                        key=f"approve_role_{idx}"
-                    )
+                    # ✅ UPDATED: Role selection based on requested role
+                    if requested_role == "cdp":
+                        # CDP can only be approved as CDP or rejected
+                        st.info("ℹ️ CDP role request - must be approved as CDP or rejected")
+                        approve_as_role = "cdp"
+                    else:
+                        # Regular users can be approved as user, admin, or manager
+                        approve_as_role = st.selectbox(
+                            "Approve as Role:",
+                            ["user", "admin", "manager", "cdp"],  # ✅ Added CDP option
+                            index=["user", "admin", "manager", "cdp"].index(requested_role) if requested_role in ["user", "admin", "manager", "cdp"] else 0,
+                            key=f"approve_role_{idx}",
+                            help="Choose the role for this user. CDP role provides access only to Change Request Tracker."
+                        )
+                        
+                        if approve_as_role == "cdp":
+                            st.warning("⚠️ Selecting CDP will restrict user to Change Request Tracker only")
                     
                     col_approve, col_reject = st.columns(2)
                     
@@ -109,9 +132,16 @@ def render_pending_approvals():
                             success, message = approve_pending_user(pending['username'], approve_as_role)
                             if success:
                                 st.success(f"✅ {message}")
-                                # ✅ NEW: Note about audit reviewer request
-                                if has_audit_request:
+                                
+                                if approve_as_role == "cdp":
+                                    st.info("📊 User approved as CDP - they will only see Change Request Tracker")
+                                
+                                # Note about audit reviewer request
+                                if has_audit_request and approve_as_role != "cdp":
                                     st.info("ℹ️ Note: Audit Reviewer request will remain pending. Approve it separately in 'Audit Reviewer Requests' section.")
+                                elif has_audit_request and approve_as_role == "cdp":
+                                    st.warning("⚠️ Audit Reviewer access is not available for CDP role")
+                                
                                 st.rerun()
                             else:
                                 st.error(f"❌ {message}")
@@ -392,6 +422,9 @@ def render_password_reset_requests():
     else:
         st.info("No processed requests yet")
 
+# pages/admin/superuser.py
+# UPDATE render_add_user_directly() function
+
 def render_add_user_directly():
     """Render add user form"""
     st.subheader("➕ Add New User Directly")
@@ -400,13 +433,39 @@ def render_add_user_directly():
     new_username = st.text_input("Username*", key="super_add_username")
     new_email = st.text_input("Email*", key="super_add_email")
     new_password = st.text_input("Password*", type="password", key="super_add_password")
-    new_role = st.selectbox("Role*", ["user", "admin", "manager"], key="super_add_role")
+    
+    # ✅ UPDATED: Include CDP in role selection
+    new_role = st.selectbox(
+        "Role*",
+        ["user", "admin", "manager", "cdp"],  # ✅ Added CDP
+        key="super_add_role",
+        format_func=lambda x: {
+            "user": "👤 User - Full access",
+            "admin": "🔧 Admin - Administrative access",
+            "manager": "👨‍💼 Manager - Team management",
+            "cdp": "📊 CDP - Change Request Tracker only"
+        }[x]
+    )
+    
+    # Show role description
+    if new_role == "cdp":
+        st.warning("⚠️ **CDP Role:** User will ONLY have access to Change Request Tracker")
     
     if st.button("Add User", key="super_add_btn", type="primary"):
         if new_username and new_email and new_password:
             success, message = create_user(new_username, new_email, new_password, new_role)
             if success:
                 st.success(f"✅ {message}")
+                
+                if new_role == "cdp":
+                    st.info("📊 CDP user created - they will only see Change Request Tracker")
+                
+                # Log the action
+                log_user_action(
+                    "CREATE_USER",
+                    "User Management",
+                    f"Created new {new_role} user: {new_username}"
+                )
             else:
                 st.error(f"❌ {message}")
         else:
@@ -480,6 +539,9 @@ def render_view_all_users():
     else:
         st.info("No users found.")
 
+# pages/admin/superuser.py
+# UPDATE render_manage_users() function
+
 def render_manage_users():
     """Render user management"""
     st.subheader("⚙️ Manage User Roles")
@@ -492,23 +554,46 @@ def render_manage_users():
         
         if selected_user:
             user_details = users[selected_user]
-            st.write(f"**Current Role:** {user_details.get('role', 'N/A')}")
+            current_role = user_details.get('role', 'user')
+            
+            st.write(f"**Current Role:** {current_role.upper()}")
             st.write(f"**Email:** {user_details.get('email', 'N/A')}")
             
-            # ✅ NEW: Show audit reviewer status
+            # Show audit reviewer status
             if user_details.get('is_audit_reviewer', False):
                 st.success("🔍 This user is an Audit Reviewer")
             
+            # ✅ UPDATED: Include CDP in role options
             new_role = st.selectbox(
                 "Change Role To:",
-                ["user", "admin", "manager"],
-                index=["user", "admin", "manager"].index(user_details.get('role', 'user'))
+                ["user", "admin", "manager", "cdp"],  # ✅ Added CDP
+                index=["user", "admin", "manager", "cdp"].index(current_role) if current_role in ["user", "admin", "manager", "cdp"] else 0,
+                format_func=lambda x: {
+                    "user": "👤 User",
+                    "admin": "🔧 Admin",
+                    "manager": "👨‍💼 Manager",
+                    "cdp": "📊 CDP (Change Request Tracker only)"
+                }[x]
             )
+            
+            # Show warning if changing to CDP
+            if new_role == "cdp" and current_role != "cdp":
+                st.warning("⚠️ **Changing to CDP:** This user will lose access to all modules except Change Request Tracker")
+            elif new_role != "cdp" and current_role == "cdp":
+                st.info("ℹ️ **Changing from CDP:** This user will gain access to other modules")
             
             if st.button("Update Role", type="primary"):
                 success, message = update_user_role(selected_user, new_role)
                 if success:
                     st.success(f"✅ {message}")
+                    
+                    # Log the change
+                    log_user_action(
+                        "UPDATE_ROLE",
+                        "User Management",
+                        f"Changed {selected_user}'s role from {current_role} to {new_role}"
+                    )
+                    
                     st.rerun()
                 else:
                     st.error(f"❌ {message}")

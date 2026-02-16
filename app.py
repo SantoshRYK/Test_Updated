@@ -35,19 +35,6 @@ def inject_global_styles():
         font-family: 'Inter', sans-serif;
     }
     
-    /* Alternative light backgrounds - uncomment to try:
-    /* Soft Gray */
-    /* background: linear-gradient(135deg, #f5f7fa 0%, #e4e7eb 100%); */
-    
-    /* Warm White */
-    /* background: linear-gradient(135deg, #fafaf9 0%, #f5f5f4 100%); */
-    
-    /* Light Blue */
-    /* background: linear-gradient(135deg, #e3f2fd 0%, #bbdefb 100%); */
-    
-    /* Mint Fresh */
-    /* background: linear-gradient(135deg, #f0fdf4 0%, #dcfce7 100%); */
-    
     /* Main content area */
     .main {
         background-color: transparent;
@@ -294,6 +281,7 @@ def inject_global_styles():
     </style>
     """, unsafe_allow_html=True)
 
+
 def route_to_page(page: str):
     """Route to appropriate page based on page name"""
     
@@ -320,9 +308,12 @@ def route_to_page(page: str):
         from pages.audit.audit_main import render_audit_page
         render_audit_page()
     
-    # ✅ NEW: Trial Quality Matrix
     elif page == "quality":
         from pages.quality.quality_main import render
+        render()
+    
+    elif page == "change_request":
+        from pages.change_request.tracker_main import render
         render()
     
     elif page == "all_allocations":
@@ -354,15 +345,34 @@ def route_to_page(page: str):
         from ui.home import render_home_page
         render_home_page()
 
+
 def main():
     """Main application entry point"""
     try:
         # ========== APPLY GLOBAL STYLES FIRST ==========
         inject_global_styles()
         
-        # ✅ Initialize session state (includes is_audit_reviewer now)
+        # ✅ Initialize session state
         initialize_session_state()
         initialize_all_files()
+        
+        # ✅ NEW: Check and create automatic backup if needed
+        try:
+            from utils.backup_manager import backup_manager
+            if backup_manager.should_create_automatic_backup():
+                print("🔄 Creating automatic weekly backup...")
+                success, message = backup_manager.create_backup(
+                    backup_type="automatic",
+                    created_by="system"
+                )
+                if success:
+                    print(message)
+                else:
+                    print(f"⚠️ Backup warning: {message}")
+        except Exception as e:
+            print(f"⚠️ Backup check failed: {e}")
+            # Don't break the app if backup fails
+            pass
         
         if is_logged_in():
             # Render sidebar navigation
@@ -406,6 +416,7 @@ def main():
                 from utils.auth import logout_user
                 logout_user()
                 st.rerun()
+
 
 if __name__ == "__main__":
     main()

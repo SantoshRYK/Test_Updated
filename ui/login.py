@@ -286,8 +286,11 @@ def render_login_tab():
         else:
             st.warning("⚠️ Please enter both username and password.")
 
+# ui/login.py
+# UPDATE render_register_tab() function
+
 def render_register_tab():
-    """Render registration tab with Audit Reviewer request option"""
+    """Render registration tab with Audit Reviewer and CDP role request option"""
     st.subheader("Create New Account")
     st.info("ℹ️ New registrations will be pending approval by Super User")
     
@@ -297,33 +300,62 @@ def render_register_tab():
     confirm_password = st.text_input("Confirm Password*", type="password", key="reg_confirm")
     
     st.markdown("---")
-    st.markdown("#### 📋 Additional Access Requests (Optional)")
+    st.markdown("#### 🎯 Role Selection")
     
-    request_audit_reviewer = st.checkbox(
-        "Request Audit Reviewer Access",
-        key="reg_audit_reviewer",
-        help="Audit Reviewers can view all audit documents in the system (read-only access)"
+    # ✅ NEW: Role selection including CDP
+    requested_role = st.selectbox(
+        "Requested Role*",
+        ["user", "cdp"],
+        format_func=lambda x: {
+            "user": "👤 Regular User - Standard access to allocations, UAT, audit",
+            "cdp": "📊 CDP - Change Request Tracker specialist (restricted access)"
+        }[x],
+        key="reg_role",
+        help="CDP role provides access ONLY to Change Request Tracker"
     )
     
+    # Show role description
+    if requested_role == "cdp":
+        st.warning("⚠️ **CDP Role:** You will ONLY have access to Change Request Tracker. Other modules (Allocation, UAT, Quality Matrix) will be restricted.")
+        st.info("✅ **CDP Access:** Create, edit, delete change requests")
+    else:
+        st.info("✅ **Regular User:** Access to Allocation, UAT Status, Audit Documents, and Quality Matrix")
+    
+    st.markdown("---")
+    st.markdown("#### 📋 Additional Access Requests (Optional)")
+    
+    # Audit Reviewer checkbox (only for non-CDP users)
+    request_audit_reviewer = False
     audit_reviewer_justification = None
-    if request_audit_reviewer:
-        st.info("🔍 **Audit Reviewer Access:** Allows you to view all audit trail documents across the system for compliance and review purposes.")
-        audit_reviewer_justification = st.text_area(
-            "Justification for Audit Reviewer Access*",
-            key="reg_audit_justification",
-            placeholder="Please explain why you need access to all audit documents (e.g., compliance officer, internal auditor, quality assurance role)...",
-            help="This will be reviewed by the Super User along with your registration",
-            max_chars=500,
-            height=100
+    
+    if requested_role != "cdp":
+        request_audit_reviewer = st.checkbox(
+            "Request Audit Reviewer Access",
+            key="reg_audit_reviewer",
+            help="Audit Reviewers can view all audit documents in the system (read-only access)"
         )
         
-        if not audit_reviewer_justification:
-            st.warning("⚠️ Please provide justification for Audit Reviewer access")
+        if request_audit_reviewer:
+            st.info("🔍 **Audit Reviewer Access:** Allows you to view all audit trail documents across the system for compliance and review purposes.")
+            audit_reviewer_justification = st.text_area(
+                "Justification for Audit Reviewer Access*",
+                key="reg_audit_justification",
+                placeholder="Please explain why you need access to all audit documents (e.g., compliance officer, internal auditor, quality assurance role)...",
+                help="This will be reviewed by the Super User along with your registration",
+                max_chars=500,
+                height=100
+            )
+            
+            if not audit_reviewer_justification:
+                st.warning("⚠️ Please provide justification for Audit Reviewer access")
+    else:
+        st.info("ℹ️ Audit Reviewer access is not available for CDP role")
     
     st.markdown("---")
     
     if st.button("Register", key="register_btn", use_container_width=True, type="primary"):
         if new_username and new_email and new_password and confirm_password:
+            # Validation
             valid, msg = validate_username(new_username)
             if not valid:
                 st.error(f"❌ {msg}")
@@ -351,11 +383,12 @@ def render_register_tab():
             if username_exists:
                 st.error("❌ Username already exists or pending approval!")
             else:
+                # ✅ UPDATED: Include requested_role in pending user data
                 pending_user = {
                     "username": new_username,
                     "password": hash_password(new_password),
                     "email": new_email,
-                    "requested_role": "user",
+                    "requested_role": requested_role,  # ✅ Now can be "user" or "cdp"
                     "status": "pending",
                     "requested_at": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                     "audit_reviewer_requested": request_audit_reviewer,
@@ -366,24 +399,37 @@ def render_register_tab():
                 
                 if save_pending_users(pending_users):
                     st.success("✅ Registration submitted! Your account is pending Super User approval.")
+                    
+                    if requested_role == "cdp":
+                        st.info("📊 You have requested CDP role - you will only have access to Change Request Tracker.")
+                    
                     st.info("📧 You will be notified once your account is approved.")
                     
                     if request_audit_reviewer:
                         st.info("🔍 Your Audit Reviewer access request has also been submitted for approval.")
                     
+                    # Email notification to admin
                     try:
                         from utils.database import load_email_config
                         config = load_email_config()
                         if config.get("enabled", False):
                             admin_email = config.get("admin_email", "")
                             if admin_email:
+                                role_emoji = "📊" if requested_role == "cdp" else "👤"
+                                
                                 email_body = f"""
                                 <h3>New User Registration</h3>
                                 <p>A new user has registered:</p>
                                 <ul>
                                     <li><strong>Username:</strong> {new_username}</li>
                                     <li><strong>Email:</strong> {new_email}</li>
+                                    <li><strong>Requested Role:</strong> {role_emoji} {requested_role.upper()}</li>
                                     <li><strong>Requested At:</strong> {pending_user['requested_at']}</li>
+                                """
+                                
+                                if requested_role == "cdp":
+                                    email_body += """
+                                    <li><strong>⚠️ Special Access:</strong> CDP - Change Request Tracker Only</li>
                                 """
                                 
                                 if request_audit_reviewer:

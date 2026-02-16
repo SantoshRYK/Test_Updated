@@ -1,5 +1,4 @@
 # utils/database.py
-
 """
 Database operations for JSON file storage
 Handles all data persistence operations
@@ -9,7 +8,6 @@ import os
 from datetime import datetime
 from typing import Dict, List, Any, Optional
 
-# UPDATE THIS IMPORT - Add TRAIL_DOCUMENTS_FILE
 from config import (
     USERS_FILE, 
     ALLOCATIONS_FILE, 
@@ -18,7 +16,8 @@ from config import (
     EMAIL_CONFIG_FILE, 
     PENDING_USERS_FILE, 
     PASSWORD_RESET_FILE,
-    TRAIL_DOCUMENTS_FILE,  # ← ADD THIS LINE
+    TRAIL_DOCUMENTS_FILE,
+    CHANGE_REQUESTS_FILE,
     DEFAULT_SUPERUSER, 
     DEFAULT_EMAIL_CONFIG
 )
@@ -26,13 +25,27 @@ from utils.auth import hash_password
 
 # ==================== GENERIC FILE OPERATIONS ====================
 
+# utils/database.py
+# REPLACE load_json and save_json functions
+
 def load_json(filepath: str, default: Any = None) -> Any:
-    """Load JSON file with error handling"""
+    """Load JSON file with simple protection check"""
     try:
         if os.path.exists(filepath):
             with open(filepath, 'r', encoding='utf-8') as f:
-                return json.load(f)
+                data = json.load(f)
+            
+            # ✅ SIMPLE: Just log to file, no circular dependency
+            try:
+                from utils.data_protection import data_protection
+                data_protection.log_access_simple("read", os.path.basename(filepath))
+            except:
+                pass  # Don't break if logging fails
+            
+            return data
+        
         return default if default is not None else {}
+    
     except json.JSONDecodeError as e:
         print(f"JSON decode error in {filepath}: {e}")
         return default if default is not None else {}
@@ -40,15 +53,26 @@ def load_json(filepath: str, default: Any = None) -> Any:
         print(f"Error loading {filepath}: {e}")
         return default if default is not None else {}
 
+
 def save_json(filepath: str, data: Any) -> bool:
-    """Save data to JSON file with error handling"""
+    """Save data to JSON file with simple protection"""
     try:
         # Create directory if it doesn't exist
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         
+        # Write data
         with open(filepath, 'w', encoding='utf-8') as f:
             json.dump(data, f, indent=4, ensure_ascii=False)
+        
+        # ✅ SIMPLE: Just log to file, no circular dependency
+        try:
+            from utils.data_protection import data_protection
+            data_protection.log_access_simple("write", os.path.basename(filepath))
+        except:
+            pass  # Don't break if logging fails
+        
         return True
+    
     except Exception as e:
         print(f"Error saving {filepath}: {e}")
         return False
@@ -142,25 +166,19 @@ def initialize_uat_records_file():
 
 def load_uat_records() -> List:
     """Load UAT records from dedicated file or allocations file (backward compatible)"""
-    # Check if UAT records file exists
     if os.path.exists(UAT_RECORDS_FILE):
         return load_json(UAT_RECORDS_FILE, [])
     else:
-        # Backward compatibility: load from allocations file
         all_data = load_allocations()
         return [item for item in all_data if item.get('record_type') == 'uat']
 
 def save_uat_records(uat_records: List) -> bool:
     """Save UAT records"""
-    # Save to dedicated UAT file
     if os.path.exists(UAT_RECORDS_FILE):
         return save_json(UAT_RECORDS_FILE, uat_records)
     else:
-        # Backward compatibility: save to allocations file
         all_data = load_allocations()
-        # Remove old UAT records
         all_data = [item for item in all_data if item.get('record_type') != 'uat']
-        # Add new UAT records
         all_data.extend(uat_records)
         return save_allocations(all_data)
 
@@ -292,20 +310,6 @@ def add_password_reset_request(request: Dict) -> bool:
     requests.append(request)
     return save_password_reset_requests(requests)
 
-# ==================== INITIALIZE ALL ====================
-
-def initialize_all_files():
-    """Initialize all data files"""
-    initialize_users_file()
-    initialize_allocations_file()
-    initialize_uat_records_file()
-    initialize_audit_logs_file()
-    initialize_email_config()
-    initialize_pending_users_file()
-    initialize_password_reset_file()
-
-# utils/database.py (add these functions at the end)
-
 # ==================== TRAIL DOCUMENTS ====================
 
 def initialize_trail_documents_file():
@@ -359,7 +363,75 @@ def get_trail_document(doc_id: str) -> Optional[Dict]:
             return doc
     return None
 
-# Update initialize_all_files
+# ==================== CHANGE REQUESTS ====================
+
+def initialize_change_requests_file():
+    """Initialize change requests file"""
+    if not os.path.exists(CHANGE_REQUESTS_FILE):
+        save_json(CHANGE_REQUESTS_FILE, [])
+
+def load_change_requests() -> List:
+    """Load change requests"""
+    initialize_change_requests_file()
+    return load_json(CHANGE_REQUESTS_FILE, [])
+
+def save_change_requests(change_requests: List) -> bool:
+    """Save change requests"""
+    return save_json(CHANGE_REQUESTS_FILE, change_requests)
+
+def add_change_request(change_request: Dict) -> bool:
+    """Add new change request"""
+    try:
+        change_requests = load_change_requests()
+        change_request['id'] = datetime.now().strftime("%Y%m%d%H%M%S")
+        change_request['created_by'] = change_request.get('created_by', '')
+        change_request['created_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        change_request['updated_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        change_requests.append(change_request)
+        
+        success = save_change_requests(change_requests)
+        
+        if success:
+            print(f"✅ Change request saved successfully. ID: {change_request['id']}")
+        else:
+            print(f"❌ Failed to save change request")
+        
+        return success
+    except Exception as e:
+        print(f"❌ Error in add_change_request: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+def update_change_request(cr_id: str, updated_data: Dict) -> bool:
+    """Update existing change request"""
+    change_requests = load_change_requests()
+    for i, cr in enumerate(change_requests):
+        if cr.get('id') == cr_id:
+            change_requests[i].update(updated_data)
+            change_requests[i]['updated_at'] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            return save_change_requests(change_requests)
+    return False
+
+def delete_change_request(cr_id: str) -> bool:
+    """Delete change request"""
+    change_requests = load_change_requests()
+    original_length = len(change_requests)
+    change_requests = [cr for cr in change_requests if cr.get('id') != cr_id]
+    if len(change_requests) < original_length:
+        return save_change_requests(change_requests)
+    return False
+
+def get_change_request(cr_id: str) -> Optional[Dict]:
+    """Get specific change request"""
+    change_requests = load_change_requests()
+    for cr in change_requests:
+        if cr.get('id') == cr_id:
+            return cr
+    return None
+
+# ==================== INITIALIZE ALL ====================
+
 def initialize_all_files():
     """Initialize all data files"""
     initialize_users_file()
@@ -369,5 +441,6 @@ def initialize_all_files():
     initialize_email_config()
     initialize_pending_users_file()
     initialize_password_reset_file()
-    initialize_trail_documents_file()  # Add this
+    initialize_trail_documents_file()
+    initialize_change_requests_file()  # ✅ NOW INCLUDED
     print("✅ All database files initialized successfully")
